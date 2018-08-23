@@ -13,6 +13,10 @@ public class DefaultWeatherData {
 	
 	private String city = null;
 	
+	public String getCity() {
+		return city;
+	}
+
 	public DefaultWeatherData(String city) {
 		if (city == null) {
 			logger.error("fail initializing DefaultWeatherData because the given city value is null");
@@ -36,17 +40,17 @@ public class DefaultWeatherData {
 	public String getDefaultWeatherData () throws IOException {		
 		
 		String dataFileName = null;
-		if (Constants.PARIS.equals(city)) {
+		if (Constants.PARIS.equals(getCity())) {
 			dataFileName = Constants.PARIS_WEATHER_FILE;
-		} else if (Constants.LAS_VEGAS.equals(city)) {
+		} else if (Constants.LAS_VEGAS.equals(getCity())) {
 			dataFileName = Constants.LAS_VEGAS_WEATHER_FILE;
-		} else if (Constants.SAN_FRANCISCO.equals(city)) {
+		} else if (Constants.SAN_FRANCISCO.equals(getCity())) {
 			dataFileName = Constants.SAN_FRANCESCO_WEATHER_FILE;
-		} else if (Constants.MIAMI.equals(city)) {
+		} else if (Constants.MIAMI.equals(getCity())) {
 			dataFileName = Constants.MIAMI_WEATHER_FILE;
-		} else if (Constants.CORK.equals(city)) {
+		} else if (Constants.CORK.equals(getCity())) {
 			dataFileName = Constants.CORK_WEATHER_FILE;
-		} else if (Constants.BARCELONA.equals(city)) {
+		} else if (Constants.BARCELONA.equals(getCity())) {
 			dataFileName = Constants.BACELONA_WEATHER_FILE;
 		}else {
 			throw new UnsupportedOperationException("The default weather information for the selected city: " + city + 

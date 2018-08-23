@@ -23,7 +23,7 @@
   
   <Loggers>
 
-    <Logger name="com.ibm"
+    <Logger name="com.ibm.ta"
         level="debug" additivity="false">
       <AppenderRef ref="LOCALHOST" />
     </Logger>
