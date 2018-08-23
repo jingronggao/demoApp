@@ -1,0 +1,645 @@
+/* styles for app */
+
+* {
+  font-family: 'Poppins', sans-serif;
+  text-transform: uppercase;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.bold {
+  font-weight: 500;
+}
+
+.h1 {
+  font-size: 33px;
+  font-weight: 200;
+}
+
+.h1__city {
+  width: 100%;
+  font-size: 58px;
+  text-align: right;
+  margin: 0;
+}
+
+.h2 {
+  font-size: 33px;
+  text-align: center;
+}
+
+.h5 {
+  width: 100%;
+  text-align: right;
+  margin: 0;
+}
+
+.h5__country {
+  padding-bottom: 20px;
+}
+
+
+
+
+/* .header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 75px;
+  padding: 0 30px;
+  background: #000;
+  color: #fff;
+  z-index: 1;
+} */
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 75px;
+  padding: 0 30px;
+  background: #000;
+  color: #fff;
+  z-index: 3;
+}
+
+/* .header--left-container {
+  width: 400px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+} */
+
+.header--left-container {
+  width: 400px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.header--logo {
+  position: relative;
+  margin-top: 86px;
+}
+
+.resort-name--heading {
+  position: absolute;
+  top: 20px;
+  left: 200px;
+}
+
+.main-nav--list {
+  display: flex;
+  list-style: none;
+  justify-content: flex-end;
+}
+
+.globe-icon {
+  position: absolute;
+  top: 23px;
+  right: 120px;
+}
+
+.main-nav--list__item {
+  margin-left: 40px;
+  font-size: 14px;
+  font-weight: 200;
+  padding: 0;
+}
+
+.sub-nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  position: fixed;
+  left: 0;
+  top: 75px;
+  width: 100%;
+  height: 65px;
+  padding: 0 30px;
+  background: rgba(255, 255, 255, .5);
+  z-index: 1;
+}
+
+.select-container {
+  position: relative;
+  display: block;
+}
+
+.select-city {
+  display: block;
+  padding-left: 15px;
+  width: 250px;
+  height: 32px;
+  border: 0;
+  color: #fff;
+  background: #4a4a4a;
+  -webkit-border-radius: 0;
+  -moz-border-radius:    0;
+  border-radius:         0;
+  -webkit-appearance: none;
+  -moz-appearance:    none;
+  appearance:         none;
+  font-size: 18px;
+}
+
+.select--arrow {
+  fill: #fff;
+  position: absolute;
+  right: 15px;
+  top: 8px;
+  width: 18px;
+  height: 18px;
+  pointer-events: none;
+}
+
+.travel-dates {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 200px;
+  height: 32px;
+  margin-left: 30px;
+  padding: 0 10px;
+  color: #fff;
+  background: #4a4a4a;
+}
+
+.button--submit {
+  width: 150px;
+  height: 32px;
+  margin-left: 45px;
+  border: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius:    0;
+  border-radius:         0;
+  background: #000;
+  color: #fff;
+  font-size: 18px;
+}
+
+.hero {
+  width: 100%;
+  height: 900px;
+  position: relative;
+  margin: 0;
+  margin-top: 75px;
+  background: url('./images/default.jpeg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  -webkit-transition: 1.0s ease-in-out;
+  -moz-transition: 1.0s ease-in-out;
+  -o-transition: 1.0s ease-in-out;
+  -ms-transition: 1.0s ease-in-out;
+  transition: 1.0s ease-in-out;
+}
+
+.details-container {
+  display: flex;
+  align-content: flex-start;
+  flex-wrap: wrap;
+  position: absolute;
+  top: 125px;
+  left: 0;
+  width: 530px;
+  min-height: 630px;
+  padding: 40px;
+  color: #fff;
+  background: rgba(0, 0, 0, .75);
+  opacity: 0;
+  transform: scale(.8);
+  transition: all 1s ease-in-out;
+}
+
+.is-selected {
+  opacity: 1;
+  left: 55px;
+  transform: scale(1);
+  transition: all 1s ease-in-out;
+}
+
+.languages-link {
+  vertical-align: top;
+  margin-left: 30px;
+}
+
+.weather-container {
+  display: flex;
+  align-items: baseline;
+  justify-content: flex-end;
+  width: 100%;
+  padding: 0 20px 10px;
+  font-size: 24px;
+}
+
+.weather-container:first-of-type {
+  align-items: center;
+}
+
+.condition {
+  max-width: 300px;
+  text-align: right;
+  padding-left: 10px;
+}
+
+.factor {
+  font-size: 36px;
+  padding: 0 10px;
+}
+
+.ins-covered {
+  font-size: 12px;
+  color: white;
+  padding: 0 30px;
+  text-decoration: underline;
+}
+
+.weather-label {
+  width: 100%;
+  padding: 10px;
+  font-size: 18px;
+  text-align: left;
+}
+
+.line {
+  position: relative;
+}
+
+.line:after {
+  position: absolute;
+  top: 22px;
+  content: '';
+  height: 2px;
+  margin-left: 20px;
+  background: #fff;
+}
+
+.line__condition:after {
+  width: 230px;
+}
+
+.line__temp:after {
+  width: 296px;
+}
+
+.line__wind:after {
+  width: 370px;
+}
+
+.line__vis:after {
+  width: 335px;
+}
+
+.line__attr:after {
+  width: 268px;
+}
+
+.weather-icon {
+  height: 35px;
+}
+
+.footer {
+  position: relative;
+  width: 100%;
+  height: 700px;
+  padding: 150px 150px;
+  background: #000;
+  color: #fff;
+}
+
+.resort-name--footer {
+  position: absolute;
+  top: 100px;
+  left: calc(50% - 120px);
+}
+
+.footer-content {
+  text-align: center;
+  text-transform: none;
+  font-size: 20px;
+}
+
+.footer-content__heading {
+  margin: 30px 0 0;
+}
+
+.footer-content__list {
+  margin: 0;
+  font-size: 14px;
+}
+
+.footer-content__contact {
+  line-height: .5;
+}
+
+.footer-content__legal {
+  font-size: 14px;
+  line-height: .6;
+}
+
+.footer--logo {
+  position: absolute;
+  margin-left: calc(50% - 63px);
+  left: 0;
+  top: -61px;
+}
+
+
+/* Additions for insurance stuff: */
+
+/* Dropdown Button in Nav */
+.dropbtn {
+  background-color: #000;
+  color: white;
+  border: none;
+  font-size: 14px;
+  font-weight: 200;
+  padding: 0;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #000;
+  color: #fff;
+  min-width: 180px;
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: white;
+  padding: 5px 5px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #666}
+
+
+.insurance-container {
+  display: flex;
+  align-content: flex-start;
+  flex-wrap: wrap;
+  position: absolute;
+  top: 125px;
+  left: 0;
+  width: 530px;
+  min-height: 630px;
+  padding: 40px;
+  color: #fff;
+  background: rgba(0, 0, 0, .75);
+  opacity: 0;
+  transform: scale(.8);
+  transition: all 1s ease-in-out;
+}
+
+.ins-is-selected {
+  opacity: 1;
+  left: 55px;
+  transform: scale(1);
+  transition: all 1s ease-in-out;
+
+}
+
+.ins-container {
+  display: flex;
+  align-items: baseline;
+  justify-content: flex-start;
+  width: 100%;
+  padding-top: 30px;
+}
+
+.ins-container-rhs {
+   display: flex;
+   justify-content: flex-end;
+   width: 100%;
+}
+.ins-container-detail {
+  display: flex;
+  align-content: flex-start;
+  flex-wrap: wrap;
+  position: absolute;
+}
+.ins-container-close {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+.ins-container-comp {
+  display: none;
+  padding-top: 20px;
+  opacity: 0;
+  transition: all 1s ease-in-out;
+  overflow: auto;
+  height: 500px;
+}
+.ins-comp-hidden {
+  opacity: 0;
+  transition: all 1s ease-in-out;
+}
+.ins-comp-visible {
+  opacity: 1;
+  transition: all 1s ease-in-out;
+}
+
+.ins-hdr {
+  text-align: left;
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+.ins-close {
+  text-align: right;
+  font-size: 12px;
+  font-weight: lighter;
+  padding-bottom: 20px;
+}
+
+.ins-desc {
+  text-align: left;
+  font-size: 12px;
+  font-weight: lighter;
+  max-width: 450px;
+  margin-left: 0;
+  padding-bottom: 20px;
+}
+
+.choosen-file-label {
+  text-align: left;
+  font-size: 12px;
+  font-weight: lighter;
+  max-width: 450px;
+  margin-left: 0;
+  display: none;
+}
+
+.choosen-file {
+  padding-left: 10px;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: none;
+}
+
+.button-light {
+  width: 255px;
+  height: 32px;
+  border-color: #fff;
+  -webkit-border-radius: 0;
+  -moz-border-radius:    0;
+  border-radius:         0;
+  background: #000;
+  color: #fff;
+  font-size: 18px;
+}
+
+.close-button {
+  border-color: #000;
+  -webkit-border-radius: 0;
+  -moz-border-radius:    0;
+  border-radius:         0;
+  background: #000;
+  color: #fff;
+  font-size: 12px;
+}
+
+.pbw {
+  text-align: left;
+  font-size: 12px;
+  font-weight: lighter;
+  padding-left: 10px;
+}
+
+.powered-by-watson {
+  position:absolute;
+  width:200px;
+  height:30px;
+  bottom:10px;
+  right:25%;
+  left:50%;
+  margin-left:-100px;
+}
+
+.warning {
+  display: none;
+  margin-top: 60px;
+}
+/*
+ * Table stuff
+ */
+div.compTable {
+  border: 0px solid #EBEBEB;
+  background-color: #000000;
+  width: 600px;
+  text-align: left;
+}
+.divTable.compTable .divTableCell, .divTable.compTable .divTableHead {
+  border: 0px solid #AAAAAA;
+  padding: 5px 5px;
+}
+.divTable.compTable .divTableBody .divTableCell {
+  text-transform: none;
+  font-size: 10px;
+  color: #FFFFFF;
+}
+.divTable.compTable .divTableRow:nth-child(even) {
+  background: #2C2C2C;
+}
+.divTable.compTable .divTableHeading {
+  background: #000000;
+  border-bottom: 2px solid #444444;
+}
+.divTable.compTable .divTableHeading .divTableHead {
+  font-size: 12px;
+  font-weight: bold;
+  color: #FFFFFF;
+  text-align: left;
+}
+
+/* DivTable.com */
+.divTable{ display: table; }
+.divTableRow { display: table-row; }
+.divTableHeading { display: table-header-group;}
+.divTableCell, .divTableHead { display: table-cell;}
+.divTableHeading { display: table-header-group;}
+.divTableFoot { display: table-footer-group;}
+.divTableBody { display: table-row-group;}
+
+
+/*
+ * Spinner stuff
+ */
+.analyzing {
+  display: none;
+}
+.loading {
+  display: block;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin: 35px 0 0 -86px;
+  width: 165px;
+  padding: 10px;
+  text-align: center;
+  /*background: linear-gradient(to bottom, #EEE, #CCC);
+  box-shadow: inset 0 1px 0 rgba(255,255,255,0.3),
+  0 1px 3px rgba(0,0,0,0.3);
+  border: 1px solid #888;
+  border-radius: 5px;
+
+  opacity: 0.8;
+  z-index: 1000;*/
+}
+.loading div {
+  position: relative;
+  top: 2px;
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 0.04em;
+  color: #BBB;
+}
+.loading.dark .spinner {
+  border-color: rgba(255,255,255,0.8);
+  border-left-color: rgba(255,255,255,0.6);
+  border-bottom-color: rgba(255,255,255,0.4);
+  border-right-color: rgba(255,255,255,0.2);
+}
+.spinner {
+  display: inline-block;
+  width: 64px;
+  height: 64px;
+  border: 3px solid rgba(0,0,0,0.8);
+  border-left-color: rgba(0,0,0,0.6);
+  border-bottom-color: rgba(0,0,0,0.4);
+  border-right-color: rgba(0,0,0,0.2);
+  border-radius: 50%;
+  -webkit-animation: rotate 600ms linear infinite;
+}
+@-webkit-keyframes rotate {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
