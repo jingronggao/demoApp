@@ -1,0 +1,4007 @@
+{
+  "document_title" : "ACME_Policy.pdf",
+  "document_text" : "No Document Text",
+  "elements" : [ {
+    "sentence" : {
+      "begin" : 5784,
+      "end" : 6694
+    },
+    "sentence_text" : "We wish to bring to your attention some of the important features of your travel insurance Policy.",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 8128,
+      "end" : 9399
+    },
+    "sentence_text" : "You are required to take all reasonable care to protect your self and your property and to act as though you are not insured.",
+    "types" : [ {
+      "label" : {
+        "nature" : "Obligation",
+        "party" : "You"
+      },
+      "assurance" : "High",
+      "provenance" : [ {
+        "id" : "NysG16bOXQVJX4aN/ZCytvJsJh3ececBNzX/MPe4h+SY="
+      }, {
+        "id" : "PYbT9wLBuxyNYn0MkwFABJY2iZEsIRez8saDb5Ft02vg="
+      }, {
+        "id" : "PRVWtrGWZh8dDV6bbsme3YsiHE+o/KFxVziGPT72ApSs="
+      }, {
+        "id" : "PHkFRgCotU1vpcGBwHgj3e15pHZNmMV0bXWDDRtYu1x0="
+      }, {
+        "id" : "P++F/u+PzCtvIoJOcaLcSNg=="
+      } ]
+    } ],
+    "categories" : [ {
+      "label" : "Insurance",
+      "assurance" : "High",
+      "provenance" : [ {
+        "id" : "CKblIkZzZW15tJxkA7UO1eCXhm8b8fBqMBNtT/bXH8JI="
+      } ]
+    } ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 16981,
+      "end" : 17185
+    },
+    "sentence_text" : "You must read the insurance Policy carefully.",
+    "types" : [ {
+      "label" : {
+        "nature" : "Obligation",
+        "party" : "You"
+      },
+      "assurance" : "High",
+      "provenance" : [ {
+        "id" : "NP2P8gvAc69bSB+ho9JenmciHE+o/KFxVziGPT72ApSs="
+      }, {
+        "id" : "PYbT9wLBuxyNYn0MkwFABJY2iZEsIRez8saDb5Ft02vg="
+      }, {
+        "id" : "PRVWtrGWZh8dDV6bbsme3YsiHE+o/KFxVziGPT72ApSs="
+      }, {
+        "id" : "PHkFRgCotU1vpcGBwHgj3e15pHZNmMV0bXWDDRtYu1x0="
+      }, {
+        "id" : "P++F/u+PzCtvIoJOcaLcSNg=="
+      } ]
+    } ],
+    "categories" : [ {
+      "label" : "Insurance",
+      "assurance" : "High",
+      "provenance" : [ {
+        "id" : "CqMWQ95EED6dB+IgJ9UvQIX3tQmLOyjCAmdhbkHdu3KNUjaYuk7NqGVMBC1x/54JJ"
+      }, {
+        "id" : "CpKcPktJKq3M0C9rNjil5FDGkdAfEaUyfIfVCHF4t4FQ="
+      } ]
+    } ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 21814,
+      "end" : 21915
+    },
+    "sentence_text" : "These are settled on an indemnity basis - not on a 'new for old' or replacement cost basis.",
+    "types" : [ ],
+    "categories" : [ {
+      "label" : "Indemnification",
+      "assurance" : "High",
+      "provenance" : [ {
+        "id" : "CnfTod6/kZ1D7c0mhysQ7LM2b864drYcUJ6sM2L5bK8E="
+      } ]
+    } ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 23422,
+      "end" : 24696
+    },
+    "sentence_text" : "GOVERNING LAW If you live in England, Scotland, Wales or Northern Ireland, the law applicable to where you live governs your Policy.",
+    "types" : [ ],
+    "categories" : [ {
+      "label" : "Dispute Resolution",
+      "assurance" : "High",
+      "provenance" : [ {
+        "id" : "CVB29XTgBHIFAaUoDkAPXboF5di1n1jxNUNP/5FfjVks="
+      }, {
+        "id" : "CM2a20KrJCoZPywpDkgFbR3E5LBKQtc+f+JEjWG+G4KM="
+      } ]
+    } ],
+    "attributes" : [ {
+      "type" : "Location",
+      "text" : "England",
+      "attribute" : {
+        "begin" : 23939,
+        "end" : 23946
+      }
+    }, {
+      "type" : "Location",
+      "text" : "Scotland",
+      "attribute" : {
+        "begin" : 23948,
+        "end" : 23956
+      }
+    }, {
+      "type" : "Location",
+      "text" : "Wales",
+      "attribute" : {
+        "begin" : 23958,
+        "end" : 23963
+      }
+    }, {
+      "type" : "Location",
+      "text" : "Northern Ireland",
+      "attribute" : {
+        "begin" : 23967,
+        "end" : 23983
+      }
+    } ]
+  }, {
+    "sentence" : {
+      "begin" : 37359,
+      "end" : 37855
+    },
+    "sentence_text" : "Important Note - Changes in Your Health, or anyone on whose health your trip may depend, after you have purchased your Travel Insurance but prior to your trip commencing",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 78341,
+      "end" : 79977
+    },
+    "sentence_text" : "Welcome to ACME Travel Insurance underwritten by ETI - International Travel Protection the United Kingdom branch of Europäische Reiseversicherung A.G., ( ERV ) an Ergo Group Company incorporated and regulated under the laws of Germany, ( ETI ) Companies House Registration FC 25660 and Branch Registration BR 007939.",
+    "types" : [ ],
+    "categories" : [ {
+      "label" : "Insurance",
+      "assurance" : "High",
+      "provenance" : [ {
+        "id" : "CqMWQ95EED6dB+IgJ9UvQIX3tQmLOyjCAmdhbkHdu3KNUjaYuk7NqGVMBC1x/54JJ"
+      } ]
+    } ],
+    "attributes" : [ {
+      "type" : "Location",
+      "text" : "United Kingdom",
+      "attribute" : {
+        "begin" : 79091,
+        "end" : 79105
+      }
+    }, {
+      "type" : "Location",
+      "text" : "Germany",
+      "attribute" : {
+        "begin" : 79560,
+        "end" : 79567
+      }
+    } ]
+  }, {
+    "sentence" : {
+      "begin" : 82211,
+      "end" : 82386
+    },
+    "sentence_text" : "This Policy is available to all UK and Channel Island residents with an upper age limit of 74 for single trip insurance and an age limit of 69 for annual multi trip insurance.",
+    "types" : [ ],
+    "categories" : [ {
+      "label" : "Insurance",
+      "assurance" : "High",
+      "provenance" : [ {
+        "id" : "CqMWQ95EED6dB+IgJ9UvQIX3tQmLOyjCAmdhbkHdu3KNUjaYuk7NqGVMBC1x/54JJ"
+      }, {
+        "id" : "CpKcPktJKq3M0C9rNjil5FDGkdAfEaUyfIfVCHF4t4FQ="
+      } ]
+    } ],
+    "attributes" : [ {
+      "type" : "Location",
+      "text" : "Channel Island",
+      "attribute" : {
+        "begin" : 82250,
+        "end" : 82264
+      }
+    } ]
+  }, {
+    "sentence" : {
+      "begin" : 82387,
+      "end" : 82478
+    },
+    "sentence_text" : "The Policy is only valid if purchased prior to the start of a trip from the United Kingdom.",
+    "types" : [ ],
+    "categories" : [ {
+      "label" : "Insurance",
+      "assurance" : "High",
+      "provenance" : [ {
+        "id" : "CpKcPktJKq3M0C9rNjil5FDGkdAfEaUyfIfVCHF4t4FQ="
+      } ]
+    } ],
+    "attributes" : [ {
+      "type" : "Location",
+      "text" : "United Kingdom",
+      "attribute" : {
+        "begin" : 82463,
+        "end" : 82477
+      }
+    } ]
+  }, {
+    "sentence" : {
+      "begin" : 84137,
+      "end" : 85258
+    },
+    "sentence_text" : "The Policy Schedule shows important details including your premium amount and details of Insured Persons who are covered by this Policy.",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 85961,
+      "end" : 86730
+    },
+    "sentence_text" : "The law, which applies to the Insurance Policy, is the law of that part of the United Kingdom in which you live.",
+    "types" : [ {
+      "label" : {
+        "nature" : "Definition",
+        "party" : "None"
+      },
+      "assurance" : "High",
+
+      "provenance" : [ {
+        "id" : "N5ngBniiB7B7vVF89jQI6Hg=="
+      }, {
+        "id" : "PZhORqxxBCCtSUECV/h0aIA=="
+      } ]
+    } ],
+    "categories" : [ {
+      "label" : "Dispute Resolution",
+      "assurance" : "High",
+      "provenance" : [ {
+        "id" : "CnvptvRdEmJBo0kv0HEfMxeywTEHXUuOhBT/fWIQJBxrdP5sOudqFSy28VRSoTHk9"
+      }, {
+        "id" : "CnvptvRdEmJBo0kv0HEfMxXagLG+WTZFywkYFmEt1Ott1lx2wHrS5scybqSLrrdD/"
+      }, {
+        "id" : "C4pcEkBqjwiTuF1mImdXJNqAzI6Sbt67OxOwQ1UtjfGctbdADZrWuMzZ8DciD3hNsrZiaA+PhlbTfU6PH1P9DPg=="
+      }, {
+        "id" : "C4pcEkBqjwiTuF1mImdXJNuwBPiNsDZllvZZtKCiQ4D0R9K16Mq7OZZhA1e06WWcJQF5YV8X33w5hCI9hWIPbIg=="
+      }, {
+        "id" : "CD8o45sy3B+3bfOura9ycHBbDDeDKPaOwaUiOVyUSt6OooA1nB8sL79Vb1T0FT4wK"
+      }, {
+        "id" : "CD8o45sy3B+3bfOura9ycHDp5EK++DtywVyrzyTwchIte8vJQK1XtcjQexmOnajM4"
+      } ]
+    } ],
+    "attributes" : [ {
+      "type" : "Location",
+      "text" : "United Kingdom",
+      "attribute" : {
+        "begin" : 86210,
+        "end" : 86224
+      }
+    } ]
+  }, {
+    "sentence" : {
+      "begin" : 86731,
+      "end" : 87464
+    },
+    "sentence_text" : "If you do not normally live in the United Kingdom, then English law applies.",
+    "types" : [ ],
+    "categories" : [ {
+      "label" : "Dispute Resolution",
+      "assurance" : "High",
+      "provenance" : [ {
+        "id" : "CnvptvRdEmJBo0kv0HEfMxeywTEHXUuOhBT/fWIQJBxrdP5sOudqFSy28VRSoTHk9"
+      }, {
+        "id" : "CnvptvRdEmJBo0kv0HEfMxXagLG+WTZFywkYFmEt1Ott1lx2wHrS5scybqSLrrdD/"
+      }, {
+        "id" : "C4pcEkBqjwiTuF1mImdXJNqAzI6Sbt67OxOwQ1UtjfGctbdADZrWuMzZ8DciD3hNsrZiaA+PhlbTfU6PH1P9DPg=="
+      }, {
+        "id" : "C4pcEkBqjwiTuF1mImdXJNuwBPiNsDZllvZZtKCiQ4D0R9K16Mq7OZZhA1e06WWcJQF5YV8X33w5hCI9hWIPbIg=="
+      } ]
+    } ],
+    "attributes" : [ {
+      "type" : "Location",
+      "text" : "United Kingdom",
+      "attribute" : {
+        "begin" : 87264,
+        "end" : 87278
+      }
+    } ]
+  }, {
+    "sentence" : {
+      "begin" : 87943,
+      "end" : 89549
+    },
+    "sentence_text" : "Any information provided to us regarding you and/or Insured Persons will be processed by us, in compliance with the provisions of the Data Protection Act 1998, for the purpose of providing insurance and handling claims, if any, which may necessitate providing such information to third parties.",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 92280,
+      "end" : 94044
+    },
+    "sentence_text" : "If you answer \"yes\" to questions 9 or 10 You must contact Our helpline to declare Your or Your travelling companion's health problem.",
+    "types" : [ {
+      "label" : {
+        "nature" : "Obligation",
+        "party" : "You"
+      },
+      "assurance" : "High",
+      "provenance" : [ {
+        "id" : "NP2P8gvAc69bSB+ho9JenmciHE+o/KFxVziGPT72ApSs="
+      }, {
+        "id" : "PYbT9wLBuxyNYn0MkwFABJY2iZEsIRez8saDb5Ft02vg="
+      }, {
+        "id" : "PRVWtrGWZh8dDV6bbsme3YsiHE+o/KFxVziGPT72ApSs="
+      }, {
+        "id" : "PHkFRgCotU1vpcGBwHgj3e15pHZNmMV0bXWDDRtYu1x0="
+      }, {
+        "id" : "P++F/u+PzCtvIoJOcaLcSNg=="
+      } ]
+    } ],
+    "categories" : [ {
+      "label" : "Communication",
+      "assurance" : "High",
+      "provenance" : [ {
+        "id" : "CMtRFv6DN47u5R5VcFRPcicU6LUJIF6laRovnVh9kNv0="
+      } ]
+    } ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 94837,
+      "end" : 96374
+    },
+    "sentence_text" : "Please note that if you fail to provide complete and accurate information in response to our questions or fail to inform us of any change in circumstances your policy may be invalidated and part or all of a claim may be not be paid.",
+    "types" : [ ],
+    "categories" : [ {
+      "label" : "Communication",
+      "assurance" : "High",
+      "provenance" : [ {
+        "id" : "CnEVP6oBkVoMdECqDDH25eg0doEN+wlEZljUy/U0lBxg="
+      } ]
+    } ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 98268,
+      "end" : 99360
+    },
+    "sentence_text" : "If you do not understand any part of your Policy or Schedule, please contact us on 0333 0030021 for assistance.",
+    "types" : [ ],
+    "categories" : [ {
+      "label" : "Communication",
+      "assurance" : "High",
+      "provenance" : [ {
+        "id" : "CMtRFv6DN47u5R5VcFRPcicU6LUJIF6laRovnVh9kNv0="
+      } ]
+    } ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 100967,
+      "end" : 101037
+    },
+    "sentence_text" : "POLICY RENEWAL - applicable for Annual Multi Trip Travel Policies only",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 101226,
+      "end" : 101860
+    },
+    "sentence_text" : "Just Travel Insurance will send you a Renewal Notification Form approximately one month prior to the expiry of the current Policy Period.",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 108689,
+      "end" : 110184
+    },
+    "sentence_text" : "If you choose to cancel and a claim has been made under this Policy during the Policy Period or an Insured Journey has been commenced, you will not be entitled to any premium refund.",
+    "types" : [ {
+      "label" : {
+        "nature" : "Exclusion",
+        "party" : "You"
+      },
+      "assurance" : "High",
+      "provenance" : [ {
+        "id" : "Nz+mQU2WrNC8+iI4CPZB3OlJBeznX2TKaZw9/+XELWyA="
+      }, {
+        "id" : "PYbT9wLBuxyNYn0MkwFABJY2iZEsIRez8saDb5Ft02vg="
+      }, {
+        "id" : "PRVWtrGWZh8dDV6bbsme3YsiHE+o/KFxVziGPT72ApSs="
+      }, {
+        "id" : "PHkFRgCotU1vpcGBwHgj3e15pHZNmMV0bXWDDRtYu1x0="
+      }, {
+        "id" : "P++F/u+PzCtvIoJOcaLcSNg=="
+      } ]
+    }, {
+      "label" : {
+        "nature" : "Obligation",
+        "party" : "You"
+      },
+      "assurance" : "High",
+      "provenance" : [ {
+        "id" : "NB3SwB5WYDMm+Qn6T/buJd7RooP6K/4MhUH1TIJKhBiBAXlhXxfffDmEIj2FYg9si"
+      }, {
+        "id" : "PYbT9wLBuxyNYn0MkwFABJY2iZEsIRez8saDb5Ft02vg="
+      }, {
+        "id" : "PRVWtrGWZh8dDV6bbsme3YsiHE+o/KFxVziGPT72ApSs="
+      }, {
+        "id" : "PHkFRgCotU1vpcGBwHgj3e15pHZNmMV0bXWDDRtYu1x0="
+      }, {
+        "id" : "P++F/u+PzCtvIoJOcaLcSNg=="
+      } ]
+    } ],
+    "categories" : [ ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 112907,
+      "end" : 114320
+    },
+    "sentence_text" : "Cover for cancellation commences on the Cover Start Date shown on your Policy Schedule, or from the date an Insured Journey is booked (whichever is later) provided the booking is within the Policy Period, and terminates on commencement of the Insured Journey.",
+    "types" : [ ],
+    "categories" : [ {
+      "label" : "Term & Termination",
+      "assurance" : "High",
+      "provenance" : [ {
+        "id" : "CcdqLLi+1ALK6eldrNL17zyrPfGnRSFzFLssw6p74YIE="
+      } ]
+    } ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 114480,
+      "end" : 116887
+    },
+    "sentence_text" : "In respect of all other insurance in the Policy, cover commences from the effective date when you leave your usual place of residence to commence an Insured Journey, and continues until the time of your return to your usual place of residence on completion of the Insured Journey.",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 119052,
+      "end" : 119669
+    },
+    "sentence_text" : "Family members are only Insured under this Policy if they are named on the Policy Schedule and the appropriate premium has been paid.",
+    "types" : [ ],
+    "categories" : [ {
+      "label" : "Insurance",
+      "assurance" : "High",
+      "provenance" : [ {
+        "id" : "CKblIkZzZW15tJxkA7UO1eCXhm8b8fBqMBNtT/bXH8JI="
+      } ]
+    } ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 120872,
+      "end" : 121310
+    },
+    "sentence_text" : "Any one Leisure Trip covered by an Annual Multi Trip Travel Insurance Policy is limited to a maximum of 31 days.",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 121778,
+      "end" : 121986
+    },
+    "sentence_text"
+    : "They are shown on your Policy Schedule.",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 122146,
+      "end" : 122984
+    },
+    "sentence_text" : "No cover shall be provided for any part of any trip under an annual multi trip policy where your intended travel exceeds the maximum permitted travel days granted under your policy.",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 130448,
+      "end" : 132983
+    },
+    "sentence_text" : "We will be entitled to take over and conduct in your name (at our expense) the defence or settlement of any claim or to prosecute in your name to our own benefit in respect of any claim for indemnity or damage or otherwise, and will have full discretion in the conduct of any proceedings or in settlement of any claim and you will give all such information and reasonable assistance as we require.",
+    "types" : [ {
+      "label" : {
+        "nature" : "Obligation",
+        "party" : "We"
+      },
+      "assurance" : "High",
+      "provenance" : [ {
+        "id" : "NDSXgDE2EK5XC/C8uYTOg8UBeWFfF998OYQiPYViD2yI="
+      }, {
+        "id" : "PRVWtrGWZh8dDV6bbsme3YsiHE+o/KFxVziGPT72ApSs="
+      }, {
+        "id" : "PHkFRgCotU1vpcGBwHgj3e15pHZNmMV0bXWDDRtYu1x0="
+      }, {
+        "id" : "P++F/u+PzCtvIoJOcaLcSNg=="
+      } ]
+    } ],
+    "categories" : [ ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 132984,
+      "end" : 133142
+    },
+    "sentence_text" : "This will include legal action to get compensation from anyone else and/or legal action to get back from anyone else any payments that have already been made.",
+    "types" : [ ],
+    "categories" : [ {
+      "label" : "Payment Terms & Billing",
+      "assurance" : "High",
+      "provenance" : [ {
+        "id" : "CnLh2GKlYzgEXhAdVezLewQMEwwNq/h4G3CJ2ZDT8vHk="
+      } ]
+    } ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 133313,
+      "end" : 134597
+    },
+    "sentence_text" : "You may not settle, reject or negotiate any claim without written permission to do so from us (or DAS in respect of Policy Section 11 ).",
+    "types" : [ {
+      "label" : {
+        "nature" : "Exclusion",
+        "party" : "You"
+      },
+      "assurance" : "High",
+      "provenance" : [ {
+        "id" : "No7d6UHpTr1DBkLsVFmUncewHzqqrPHlIpdohMwLkxXY="
+      }, {
+        "id" : "PYbT9wLBuxyNYn0MkwFABJY2iZEsIRez8saDb5Ft02vg="
+      }, {
+        "id" : "PRVWtrGWZh8dDV6bbsme3YsiHE+o/KFxVziGPT72ApSs="
+      }, {
+        "id" : "PHkFRgCotU1vpcGBwHgj3e15pHZNmMV0bXWDDRtYu1x0="
+      }, {
+        "id" : "P++F/u+PzCtvIoJOcaLcSNg=="
+      } ]
+    } ],
+    "categories" : [ ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 134787,
+      "end" : 138130
+    },
+    "sentence_text" : "In case of Illness or Bodily Injury we may approach any doctor who may have treated you during the period of three years prior to the claim and we may at our own expense, and upon reasonable notice to you or your legal personal representative, arrange for you to be medically examined as often as required, or in the event of death, have a post mortem examination of your body.",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 138300,
+      "end" : 139268
+    },
+    "sentence_text" : "You will supply, at your own expense, a doctor's certificate in the form required by us in support of any medical-related claim under the Policy.",
+    "types" : [ {
+      "label" : {
+        "nature" : "Obligation",
+        "party" : "You"
+      },
+      "assurance" : "High",
+      "provenance" : [ {
+        "id" : "NNtzdPi0PFR+R0Gs6JgoYuk04j4A/cYGPkRk6uzIdLjU="
+      }, {
+        "id" : "PYbT9wLBuxyNYn0MkwFABJY2iZEsIRez8saDb5Ft02vg="
+      }, {
+        "id" : "PRVWtrGWZh8dDV6bbsme3YsiHE+o/KFxVziGPT72ApSs="
+      }, {
+        "id" : "PHkFRgCotU1vpcGBwHgj3e15pHZNmMV0bXWDDRtYu1x0="
+      }, {
+        "id" : "P++F/u+PzCtvIoJOcaLcSNg=="
+      } ]
+    } ],
+    "categories" : [ ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 1450,
+      "end" : 1473
+    },
+    "sentence_text" : "Travel Insurance Policy",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 1683,
+      "end" : 1702
+    },
+    "sentence_text" : "ACME Insurance Inc.",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 1895,
+      "end" : 1903
+    },
+    "sentence_text" : "Contents",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 2424,
+      "end" : 2439
+    },
+    "sentence_text" : "IMPORTANT NOTES",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 2891,
+      "end" : 2908
+    },
+    "sentence_text" : "TABLE OF BENEFITS",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 3363,
+      "end" : 3395
+    },
+    "sentence_text" : "WELCOME TO ACME TRAVEL INSURANCE",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 3849,
+      "end" : 3867
+    },
+    "sentence_text" : "POLICY INFORMATION",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 4320,
+      "end" : 4337
+    },
+    "sentence_text" : "POLICY CONDITIONS",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 4791,
+      "end" : 4809
+    },
+    "sentence_text" : "GENERAL EXCLUSIONS",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 5288,
+      "end" : 5318
+    },
+    "sentence_text" : "RIGHTS AND RESPONSIBILITIES 10",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 5564,
+      "end" : 5579
+    },
+    "sentence_text" : "IMPORTANT NOTES",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 6949,
+      "end" : 6964
+    },
+    "sentence_text" : "POLICY EXCESSES",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 7161,
+      "end" : 7228
+    },
+    "sentence_text" : "Claims under most sections of the Policy will be subject to excess.",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 7229,
+      "end" : 7641
+    },
+    "sentence_text" : "Where there is excess you will be responsible for paying the first part of that claim.",
+    "types" : [ {
+      "label" : {
+        "nature" : "Obligation",
+        "party" : "You"
+      },
+      "assurance" : "High",
+      "provenance" : [ {
+        "id" : "N5ODIQa4bjoPGP8mCpIAP+dGUoYO3BP9MpXMGMlGR5RI="
+      }, {
+        "id" : "PYbT9wLBuxyNYn0MkwFABJY2iZEsIRez8saDb5Ft02vg="
+      }, {
+        "id" : "PRVWtrGWZh8dDV6bbsme3YsiHE+o/KFxVziGPT72ApSs="
+      }, {
+        "id" : "PHkFRgCotU1vpcGBwHgj3e15pHZNmMV0bXWDDRtYu1x0="
+      }, {
+        "id" : "P++F/u+PzCtvIoJOcaLcSNg=="
+      } ]
+    } ],
+    "categories" : [ ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 7907,
+      "end" : 7922
+    },
+    "sentence_text" : "REASONABLE CARE",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 9665,
+      "end" : 9675
+    },
+    "sentence_text" : "COMPLAINTS",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 9873,
+      "end" : 10982
+    },
+    "sentence_text" : "The insurance Policy includes a Complaints Procedure, which tells you what steps you can take if you wish to make a complaint.",
+    "types" : [ {
+      "label" : {
+        "nature" : "Right",
+        "party" : "You"
+      },
+      "assurance" : "High",
+      "provenance" : [ {
+        "id" : "NFcxTEbqRNqPlGopeAMxC8YOFjt/T/aNeYQ61ZTKoNOU="
+      }, {
+        "id" : "PYbT9wLBuxyNYn0MkwFABJY2iZEsIRez8saDb5Ft02vg="
+      }, {
+
+        "id" : "PRVWtrGWZh8dDV6bbsme3YsiHE+o/KFxVziGPT72ApSs="
+      }, {
+        "id" : "PHkFRgCotU1vpcGBwHgj3e15pHZNmMV0bXWDDRtYu1x0="
+      }, {
+        "id" : "P++F/u+PzCtvIoJOcaLcSNg=="
+      } ]
+    } ],
+    "categories" : [ ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 11248,
+      "end" : 11266
+    },
+    "sentence_text" : "COOLING OFF PERIOD",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 11464,
+      "end" : 13063
+    },
+    "sentence_text" : "The cover under Section 5a Cancellation, commences as soon as the policy is issued, we cannot therefore, refund your premium after this date except within the first 14 days of the policy being received or before you travel (whichever is sooner), if it does not meet your requirements.",
+    "types" : [ {
+      "label" : {
+        "nature" : "Exclusion",
+        "party" : "We"
+      },
+      "assurance" : "High",
+      "provenance" : [ {
+        "id" : "No7d6UHpTr1DBkLsVFmUncewHzqqrPHlIpdohMwLkxXY="
+      }, {
+        "id" : "PRVWtrGWZh8dDV6bbsme3YsiHE+o/KFxVziGPT72ApSs="
+      }, {
+        "id" : "PHkFRgCotU1vpcGBwHgj3e15pHZNmMV0bXWDDRtYu1x0="
+      }, {
+        "id" : "P++F/u+PzCtvIoJOcaLcSNg=="
+      } ]
+    } ],
+    "categories" : [ ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 13331,
+      "end" : 13364
+    },
+    "sentence_text" : "HAZARDOUS ACTIVITIES & SPORTS",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 13560,
+      "end" : 15386
+    },
+    "sentence_text" : "The Policy will not cover you when you take part in any hazardous activities unless you have declared this to us and paid an additional premium and it is stated in the policy schedule.",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 15652,
+      "end" : 15659
+    },
+    "sentence_text" : "CRUISES",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 15855,
+      "end" : 16239
+    },
+    "sentence_text" : "The Policy will not cover you for trips on Cruise-ships.",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 16505,
+      "end" : 16521
+    },
+    "sentence_text" : "INSURANCE POLICY",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 16718,
+      "end" : 16813
+    },
+    "sentence_text" : "This contains full details of the cover provided plus the conditions and exclusions that apply.",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 17452,
+      "end" : 17477
+    },
+    "sentence_text" : "CONDITIONS AND EXCLUSIONS",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 17673,
+      "end" : 17745
+    },
+    "sentence_text" : "There are conditions and exclusions, which apply to individual sections.",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 17746,
+      "end" : 17813
+    },
+    "sentence_text" : "General conditions, exclusions and terms apply to the whole Policy.",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 18079,
+      "end" : 18096
+    },
+    "sentence_text" : "FRAUDULENT CLAIMS",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 18294,
+      "end" : 18349
+    },
+    "sentence_text" : "The making of a fraudulent claim is a criminal offence.",
+    "types" : [ {
+      "label" : {
+        "nature" : "Definition",
+        "party" : "None"
+      },
+      "assurance" : "High",
+      "provenance" : [ {
+        "id" : "Nh2s5Sr5m0yzFf0ex23a6H5dzKdvI+yC8XrQ3Q3Id3E0="
+      }, {
+        "id" : "PZhORqxxBCCtSUECV/h0aIA=="
+      } ]
+    } ],
+    "categories" : [ ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 18616,
+      "end" : 18631
+    },
+    "sentence_text" : "CYBER-TERRORISM",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 18826,
+      "end" : 19391
+    },
+    "sentence_text" : "The Policy will not cover you for the consequences of Cyber Terrorism.",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 19657,
+      "end" : 19673
+    },
+    "sentence_text" : "MEDICAL EXPENSES",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 19870,
+      "end" : 19975
+    },
+    "sentence_text" : "This section does not provide private health care unless specifically approved by the Assistance Company.",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 20241,
+      "end" : 20247
+    },
+    "sentence_text" : "HEALTH",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 20445,
+      "end" : 20577
+    },
+    "sentence_text" : "The Policy contains conditions relating to the health of the people travelling and others upon whose well-being the trip may depend.",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 20578,
+      "end" : 21334
+    },
+    "sentence_text" : "Please refer to page 1 & 2 of the Policy for Pre-Existing Medical Conditions and exclusions.",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 21601,
+      "end" : 21616
+    },
+    "sentence_text" : "PROPERTY CLAIMS",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 22184,
+      "end" : 22197
+    },
+    "sentence_text" : "POLICY LIMITS",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 22395,
+      "end" : 22809
+    },
+    "sentence_text" : "Most sections of the Policy have limits on the amount we will pay under that section.",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 22810,
+      "end" : 23223
+    },
+    "sentence_text" : "Some sections also include inner limits e.g.: for one item or for valuables in total.",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 24697,
+      "end" : 25455
+    },
+    "sentence_text" : "If you live outside of England, Scotland, Wales or Northern Ireland, English law governs your Policy.",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ {
+      "type" : "Location",
+      "text" : "England",
+      "attribute" : {
+        "begin" : 25050,
+        "end" : 25057
+      }
+    }, {
+      "type" : "Location",
+      "text" : "Scotland",
+      "attribute" : {
+        "begin" : 25059,
+        "end" : 25067
+      }
+    }, {
+      "type" : "Location",
+      "text" : "Wales",
+      "attribute" : {
+        "begin" : 25069,
+        "end" : 25074
+      }
+    }, {
+      "type" : "Location",
+      "text" : "Northern Ireland",
+      "attribute" : {
+        "begin" : 25078,
+        "end" : 25094
+      }
+    } ]
+  }, {
+    "sentence" : {
+      "begin" : 25723,
+      "end" : 25754
+    },
+    "sentence_text" : "PRE-EXISTING MEDICAL CONDITIONS",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 25959,
+      "end" : 26532
+    },
+    "sentence_text" : "You must comply with the following conditions to have full protection under your policy:",
+    "types" : [ {
+      "label" : {
+        "nature" : "Obligation",
+        "party" : "You"
+      },
+      "assurance" : "High",
+      "provenance" : [ {
+        "id" : "NP2P8gvAc69bSB+ho9JenmciHE+o/KFxVziGPT72ApSs="
+      }, {
+        "id" : "PYbT9wLBuxyNYn0MkwFABJY2iZEsIRez8saDb5Ft02vg="
+      }, {
+        "id" : "PRVWtrGWZh8dDV6bbsme3YsiHE+o/KFxVziGPT72ApSs="
+      }, {
+        "id" : "PHkFRgCotU1vpcGBwHgj3e15pHZNmMV0bXWDDRtYu1x0="
+      }, {
+        "id" : "P++F/u+PzCtvIoJOcaLcSNg=="
+      } ]
+    } ],
+    "categories" : [ ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 26731,
+      "end" : 28547
+    },
+    "sentence_text" : "You are not covered (for the relevant condition) for claims directly or indirectly resulting from you, or anyone in your travelling party, or anyone on whose health your trip may depend, having suffered from, or been treated for, or diagnosed with, any medical condition unless declared to us and shown as 'covered' on the Medical Declaration.",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 28737,
+      "end" : 28777
+    },
+    "sentence_text" : "A pre-existing medical condition must be",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 28967,
+      "end" : 29014
+    },
+    "sentence_text" : "declared if: Anyone travelling who has ever had",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 29202,
+      "end" : 29216
+    },
+    "sentence_text" : "treatment for:",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 29433,
+      "end" : 29657
+    },
+    "sentence_text" : "a. Any heart or circulatory condition b. Any type of diabetes",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 29852,
+      "end" : 29886
+    },
+    "sentence_text" : "c. A stroke or high blood pressure",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 30075,
+      "end" : 30241
+    },
+    "sentence_text" : "d. Any type of cancer, whether in remission or not e. Any lung or breathing condition f. Any psychiatric or psychological condition g. An organ transplant or dialysis",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 30430,
+      "end" : 30623
+    },
+    "sentence_text" : "In the last 5 years, anyone has travelling suffered from a serious or recurring medical condition, been prescribed medication or received treatment or attended a medical practitioner's surgery.",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 30812,
+      "end" : 30996
+    },
+    "sentence_text" : "In the last 5 years, anyone travelling has been referred to a specialist or a consultant at a hospital or clinic for tests, diagnosis or treatments or attended as an in or out patient.",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 31186,
+      "end" : 31275
+    },
+    "sentence_text" : "Anyone has been diagnosed by a medical practitioner as suffering from a terminal illness.",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 31444,
+      "end" : 31467
+    },
+    "sentence_text" : "You will not be covered",
+    "types" : [ {
+      "label" : {
+        "nature" : "Obligation",
+        "party" : "You"
+      },
+      "assurance" : "High",
+      "provenance" : [ {
+        "id" : "NB3SwB5WYDMm+Qn6T/buJd7RooP6K/4MhUH1TIJKhBiBAXlhXxfffDmEIj2FYg9si"
+      }, {
+        "id" : "PYbT9wLBuxyNYn0MkwFABJY2iZEsIRez8saDb5Ft02vg="
+      }, {
+        "id" : "PRVWtrGWZh8dDV6bbsme3YsiHE+o/KFxVziGPT72ApSs="
+      }, {
+        "id" : "PHkFRgCotU1vpcGBwHgj3e15pHZNmMV0bXWDDRtYu1x0="
+      }, {
+        "id" : "P++F/u+PzCtvIoJOcaLcSNg=="
+      } ]
+    } ],
+    "categories" : [ ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 31689,
+      "end" : 33430
+    },
+    "sentence_text" : "a. for any claim arising from a medical condition of someone you were going to stay with, a relative, a business associate, a travelling companion, or anyone on whose health your trip may depend if you are aware of the medical condition at the time your policy was issued.",
+    "types" : [ {
+      "label" : {
+        "nature" : "Obligation",
+        "party" : "You"
+      },
+      "assurance" : "High",
+      "provenance" : [ {
+        "id" : "NB3SwB5WYDMm+Qn6T/buJd7RooP6K/4MhUH1TIJKhBiCl5QEQ7kEENnGTqVBIMR8LN4hxHA6uQbcJumJiz0xnEw=="
+      }, {
+        "id" : "PYbT9wLBuxyNYn0MkwFABJaWchv5IayLs3uQRnhHFGG8DvZ+3PKg5AgwXm4bPWQhXFHWCk25tlvugaq2zdjwg1Q=="
+      }, {
+        "id" : "PRVWtrGWZh8dDV6bbsme3Yg3J53G1OKrVtdwiRa2A66YwznuIZKl37/4YxKfAOocD"
+      }, {
+        "id" : "PHkFRgCotU1vpcGBwHgj3e4DBD1HjkE8/fhd4g2slwWlW4Hf+L0fXmrlNT68XGiuFQF5YV8X33w5hCI9hWIPbIg=="
+      }, {
+        "id" : "Pqjd5I+s/Fdpx2NbIwCRMtztzc5JdzB+aHfojSiMbztZp4u1DZxlwdAHWePYv+wfs"
+      } ]
+    } ],
+    "categories" : [ ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 33618,
+      "end" : 34911
+    },
+    "sentence_text" : "b. if you have a medical condition, if you are travelling against medical advice or medical advice should have been sought before commencing your journey.",
+    "types" : [ {
+      "label" : {
+        "nature" : "Obligation",
+        "party" : "You"
+      },
+      "assurance" : "High",
+      "provenance" : [ {
+        "id" : "NB3SwB5WYDMm+Qn6T/buJd7RooP6K/4MhUH1TIJKhBiCl5QEQ7kEENnGTqVBIMR8LN4hxHA6uQbcJumJiz0xnEw=="
+      }, {
+        "id" : "PYbT9wLBuxyNYn0MkwFABJaWchv5IayLs3uQRnhHFGG8DvZ+3PKg5AgwXm4bPWQhXFHWCk25tlvugaq2zdjwg1Q=="
+      }, {
+        "id" : "PRVWtrGWZh8dDV6bbsme3Yg3J53G1OKrVtdwiRa2A66YwznuIZKl37/4YxKfAOocD"
+      }, {
+        "id" : "PHkFRgCotU1vpcGBwHgj3e4DBD1HjkE8/fhd4g2slwWlW4Hf+L0fXmrlNT68XGiuFQF5YV8X33w5hCI9hWIPbIg=="
+      }, {
+        "id" : "Pqjd5I+s/Fdpx2NbIwCRMtztzc5JdzB+aHfojSiMbztZp4u1DZxlwdAHWePYv+wfs"
+      } ]
+    } ],
+    "categories" : [ ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 34912,
+      "end" : 36347
+    },
+    "sentence_text" : "c. if you know you will need medical treatment during your journey or you are travelling specifically to get medical treatment.",
+    "types" : [ {
+      "label" : {
+        "nature" : "Obligation",
+        "party" : "You"
+      },
+      "assurance" : "High",
+      "provenance" : [ {
+        "id" : "NNtzdPi0PFR+R0Gs6JgoYuk04j4A/cYGPkRk6uzIdLjU="
+      }, {
+        "id" : "PYbT9wLBuxyNYn0MkwFABJY2iZEsIRez8saDb5Ft02vg="
+      }, {
+        "id" : "PRVWtrGWZh8dDV6bbsme3YsiHE+o/KFxVziGPT72ApSs="
+      }, {
+        "id" : "PHkFRgCotU1vpcGBwHgj3e15pHZNmMV0bXWDDRtYu1x0="
+      }, {
+        "id" : "P++F/u+PzCtvIoJOcaLcSNg=="
+      }, {
+        "id" : "NB3SwB5WYDMm+Qn6T/buJd7RooP6K/4MhUH1TIJKhBiCl5QEQ7kEENnGTqVBIMR8LN4hxHA6uQbcJumJiz0xnEw=="
+      }, {
+        "id" : "PYbT9wLBuxyNYn0MkwFABJaWchv5IayLs3uQRnhHFGG8DvZ+3PKg5AgwXm4bPWQhXFHWCk25tlvugaq2zdjwg1Q=="
+      }, {
+        "id" : "PRVWtrGWZh8dDV6bbsme3Yg3J53G1OKrVtdwiRa2A66YwznuIZKl37/4YxKfAOocD"
+      }, {
+        "id" : "PHkFRgCotU1vpcGBwHgj3e4DBD1HjkE8/fhd4g2slwWlW4Hf+L0fXmrlNT68XGiuFQF5YV8X33w5hCI9hWIPbIg=="
+      }, {
+        "id" : "Pqjd5I+s/Fdpx2NbIwCRMtztzc5JdzB+aHfojSiMbztZp4u1DZxlwdAHWePYv+wfs"
+      } ]
+    } ],
+    "categories" : [ ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 36535,
+      "end" : 37154
+    },
+    "sentence_text" : "d. if you have a medical condition for which treatment is awaited as a hospital in-patient or for which diagnostic tests are pending.",
+    "types" : [ {
+      "label" : {
+        "nature" : "Obligation",
+        "party" : "You"
+      },
+      "assurance" : "High",
+      "provenance" : [ {
+        "id" : "NB3SwB5WYDMm+Qn6T/buJd7RooP6K/4MhUH1TIJKhBiCl5QEQ7kEENnGTqVBIMR8LN4hxHA6uQbcJumJiz0xnEw=="
+      }, {
+        "id" : "PYbT9wLBuxyNYn0MkwFABJaWchv5IayLs3uQRnhHFGG8DvZ+3PKg5AgwXm4bPWQhXFHWCk25tlvugaq2zdjwg1Q=="
+      }, {
+        "id" : "PRVWtrGWZh8dDV6bbsme3Yg3J53G1OKrVtdwiRa2A66YwznuIZKl37/4YxKfAOocD"
+      }, {
+        "id" : "PHkFRgCotU1vpcGBwHgj3e4DBD1HjkE8/fhd4g2slwWlW4Hf+L0fXmrlNT68XGiuFQF5YV8X33w5hCI9hWIPbIg=="
+      }, {
+        "id" : "Pqjd5I+s/Fdpx2NbIwCRMtztzc5JdzB+aHfojSiMbztZp4u1DZxlwdAHWePYv+wfs"
+      } ]
+    } ],
+    "categories" : [ ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 38053,
+      "end"
+      : 40064
+    },
+    "sentence_text" : "You must tell us if your state of health, or that of anyone on whose health your trip may depend, changes before you commence an insured trip, i.e. if you or they develop a new condition or an existing condition worsens.",
+    "types" : [ {
+      "label" : {
+        "nature" : "Obligation",
+        "party" : "You"
+      },
+      "assurance" : "High",
+      "provenance" : [ {
+        "id" : "NP2P8gvAc69bSB+ho9JenmciHE+o/KFxVziGPT72ApSs="
+      }, {
+        "id" : "PYbT9wLBuxyNYn0MkwFABJY2iZEsIRez8saDb5Ft02vg="
+      }, {
+        "id" : "PRVWtrGWZh8dDV6bbsme3YsiHE+o/KFxVziGPT72ApSs="
+      }, {
+        "id" : "PHkFRgCotU1vpcGBwHgj3e15pHZNmMV0bXWDDRtYu1x0="
+      }, {
+        "id" : "P++F/u+PzCtvIoJOcaLcSNg=="
+      } ]
+    } ],
+    "categories" : [ ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 40065,
+      "end" : 41846
+    },
+    "sentence_text" : "If you DO NOT tell us about a change in your or their medical condition we have the right to amend, restrict or cancel your cover under this policy.",
+    "types" : [ {
+      "label" : {
+        "nature" : "Right",
+        "party" : "We"
+      },
+      "assurance" : "High",
+      "provenance" : [ {
+        "id" : "Nzn2xAL9DPjp1u03FxIJHfhnMLvMi4sizhxdSHoirALo="
+      }, {
+        "id" : "PRVWtrGWZh8dDV6bbsme3YsiHE+o/KFxVziGPT72ApSs="
+      }, {
+        "id" : "PHkFRgCotU1vpcGBwHgj3e15pHZNmMV0bXWDDRtYu1x0="
+      }, {
+        "id" : "P++F/u+PzCtvIoJOcaLcSNg=="
+      } ]
+    } ],
+    "categories" : [ ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 42047,
+      "end" : 42092
+    },
+    "sentence_text" : "If you have a pre-existing medical condition?",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 42280,
+      "end" : 43447
+    },
+    "sentence_text" : "If you want to purchase or have purchased a policy and need to declare a pre-existing medical condition, (as advised above), then we will need to discuss this with you in person.",
+    "types" : [ {
+      "label" : {
+        "nature" : "Obligation",
+        "party" : "We"
+      },
+      "assurance" : "High",
+      "provenance" : [ {
+        "id" : "NP2P8gvAc69bSB+ho9JenmciHE+o/KFxVziGPT72ApSs="
+      }, {
+        "id" : "PRVWtrGWZh8dDV6bbsme3YsiHE+o/KFxVziGPT72ApSs="
+      }, {
+        "id" : "PHkFRgCotU1vpcGBwHgj3e15pHZNmMV0bXWDDRtYu1x0="
+      }, {
+        "id" : "P++F/u+PzCtvIoJOcaLcSNg=="
+      }, {
+        "id" : "NNtzdPi0PFR+R0Gs6JgoYuk04j4A/cYGPkRk6uzIdLjU="
+      } ]
+    } ],
+    "categories" : [ ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 43448,
+      "end" : 44368
+    },
+    "sentence_text" : "Please telephone us on 0333 0030021 for immediate help - We look forward to talking with you.",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 44559,
+      "end" : 44976
+    },
+    "sentence_text" : "For some pre-existing medical conditions you may be required to pay an additional premium.",
+    "types" : [ {
+      "label" : {
+        "nature" : "Obligation",
+        "party" : "You"
+      },
+      "assurance" : "High",
+      "provenance" : [ {
+        "id" : "NysG16bOXQVJX4aN/ZCytvJsJh3ececBNzX/MPe4h+SY="
+      }, {
+        "id" : "PYbT9wLBuxyNYn0MkwFABJY2iZEsIRez8saDb5Ft02vg="
+      }, {
+        "id" : "PRVWtrGWZh8dDV6bbsme3YsiHE+o/KFxVziGPT72ApSs="
+      }, {
+        "id" : "PHkFRgCotU1vpcGBwHgj3e15pHZNmMV0bXWDDRtYu1x0="
+      }, {
+        "id" : "P++F/u+PzCtvIoJOcaLcSNg=="
+      } ]
+    } ],
+    "categories" : [ ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 45167,
+      "end" : 45629
+    },
+    "sentence_text" : "In all cases, cover for pre-existing medical conditions is dealt with on a one-to-one personal level through our telesales call centre.",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 45813,
+      "end" : 45830
+    },
+    "sentence_text" : "TABLE OF BENEFITS",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 46421,
+      "end" : 46426
+    },
+    "sentence_text" : "COVER",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 46662,
+      "end" : 46677
+    },
+    "sentence_text" : "BRONZE Benefits",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 46912,
+      "end" : 46927
+    },
+    "sentence_text" : "SILVER Benefits",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 47162,
+      "end" : 47175
+    },
+    "sentence_text" : "GOLD Benefits",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 47551,
+      "end" : 47558
+    },
+    "sentence_text" : "Max Sum",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 47791,
+      "end" : 47796
+    },
+    "sentence_text" : "Exces",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 48031,
+      "end" : 48046
+    },
+    "sentence_text" : "Max Sum Insured",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 48282,
+      "end" : 48287
+    },
+    "sentence_text" : "Exces",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 48523,
+      "end" : 48538
+    },
+    "sentence_text" : "Max Sum Insured",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 48768,
+      "end" : 48773
+    },
+    "sentence_text" : "Exces",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 49244,
+      "end" : 49343
+    },
+    "sentence_text" : "Emergency Medical, Repatriation and associated Expenses Emergency Dental Treatment Hospital Benefit",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 49579,
+      "end" : 49586
+    },
+    "sentence_text" : "Insured",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 49753,
+      "end" : 49768
+    },
+    "sentence_text" : "£5,000,000",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ {
+      "type" : "Currency",
+      "text" : "£5,000,000",
+      "attribute" : {
+        "begin" : 49753,
+        "end" : 49768
+      }
+    } ]
+  }, {
+    "sentence" : {
+      "begin" : 49936,
+      "end" : 49953
+    },
+    "sentence_text" : "£100 £0",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ {
+      "type" : "Currency",
+      "text" : "£100",
+      "attribute" : {
+        "begin" : 49936,
+        "end" : 49945
+      }
+    }, {
+      "type" : "Currency",
+      "text" : "100 £",
+      "attribute" : {
+        "begin" : 49942,
+        "end" : 49947
+      }
+    }, {
+      "type" : "Currency",
+      "text" : "£0",
+      "attribute" : {
+        "begin" : 49946,
+        "end" : 49953
+      }
+    } ]
+  }, {
+    "sentence" : {
+      "begin" : 50354,
+      "end" : 50363
+    },
+    "sentence_text" : "£100",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ {
+      "type" : "Currency",
+      "text" : "£100",
+      "attribute" : {
+        "begin" : 50354,
+        "end" : 50363
+      }
+    } ]
+  }, {
+    "sentence" : {
+      "begin" : 50530,
+      "end" : 50537
+    },
+    "sentence_text" : "Nil Nil",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 50764,
+      "end" : 50780
+    },
+    "sentence_text" : "£10,000,000",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ {
+      "type" : "Currency",
+      "text" : "£10,000,000",
+      "attribute" : {
+        "begin" : 50764,
+        "end" : 50780
+      }
+    } ]
+  }, {
+    "sentence" : {
+      "begin" : 50948,
+      "end" : 50957
+    },
+    "sentence_text" : "£200",
+    "types" : [ ],
+    "categories" : [ ],
+
+    "attributes" : [ {
+      "type" : "Currency",
+      "text" : "£200",
+      "attribute" : {
+        "begin" : 50948,
+        "end" : 50957
+      }
+    } ]
+  }, {
+    "sentence" : {
+      "begin" : 51124,
+      "end" : 51157
+    },
+    "sentence_text" : "£20 per day up to £1000",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ {
+      "type" : "Currency",
+      "text" : "£20",
+      "attribute" : {
+        "begin" : 51124,
+        "end" : 51132
+      }
+    }, {
+      "type" : "Currency",
+      "text" : "£1000",
+      "attribute" : {
+        "begin" : 51147,
+        "end" : 51157
+      }
+    } ]
+  }, {
+    "sentence" : {
+      "begin" : 51558,
+      "end" : 51566
+    },
+    "sentence_text" : "£75",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ {
+      "type" : "Currency",
+      "text" : "£75",
+      "attribute" : {
+        "begin" : 51558,
+        "end" : 51566
+      }
+    } ]
+  }, {
+    "sentence" : {
+      "begin" : 51733,
+      "end" : 51740
+    },
+    "sentence_text" : "Nil Nil",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 51966,
+      "end" : 51982
+    },
+    "sentence_text" : "£10,000,000",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ {
+      "type" : "Currency",
+      "text" : "£10,000,000",
+      "attribute" : {
+        "begin" : 51966,
+        "end" : 51982
+      }
+    } ]
+  }, {
+    "sentence" : {
+      "begin" : 52149,
+      "end" : 52158
+    },
+    "sentence_text" : "£300",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ {
+      "type" : "Currency",
+      "text" : "£300",
+      "attribute" : {
+        "begin" : 52149,
+        "end" : 52158
+      }
+    } ]
+  }, {
+    "sentence" : {
+      "begin" : 52326,
+      "end" : 52359
+    },
+    "sentence_text" : "£20 per day up to £1000",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ {
+      "type" : "Currency",
+      "text" : "£20",
+      "attribute" : {
+        "begin" : 52326,
+        "end" : 52334
+      }
+    }, {
+      "type" : "Currency",
+      "text" : "£1000",
+      "attribute" : {
+        "begin" : 52349,
+        "end" : 52359
+      }
+    } ]
+  }, {
+    "sentence" : {
+      "begin" : 52756,
+      "end" : 52764
+    },
+    "sentence_text" : "£50",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ {
+      "type" : "Currency",
+      "text" : "£50",
+      "attribute" : {
+        "begin" : 52756,
+        "end" : 52764
+      }
+    } ]
+  }, {
+    "sentence" : {
+      "begin" : 52929,
+      "end" : 52936
+    },
+    "sentence_text" : "Nil Nil",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 53406,
+      "end" : 53423
+    },
+    "sentence_text" : "Personal Accident",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 53649,
+      "end" : 53656
+    },
+    "sentence_text" : "£0",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ {
+      "type" : "Currency",
+      "text" : "£0",
+      "attribute" : {
+        "begin" : 53649,
+        "end" : 53656
+      }
+    } ]
+  }, {
+    "sentence" : {
+      "begin" : 53881,
+      "end" : 53884
+    },
+    "sentence_text" : "Nil",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 54111,
+      "end" : 54123
+    },
+    "sentence_text" : "£15,000",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ {
+      "type" : "Currency",
+      "text" : "£15,000",
+      "attribute" : {
+        "begin" : 54111,
+        "end" : 54123
+      }
+    } ]
+  }, {
+    "sentence" : {
+      "begin" : 54348,
+      "end" : 54351
+    },
+    "sentence_text" : "Nil",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 54577,
+      "end" : 54589
+    },
+    "sentence_text" : "£25,000",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ {
+      "type" : "Currency",
+      "text" : "£25,000",
+      "attribute" : {
+        "begin" : 54577,
+        "end" : 54589
+      }
+    } ]
+  }, {
+    "sentence" : {
+      "begin" : 54812,
+      "end" : 54815
+    },
+    "sentence_text" : "Nil",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 55286,
+      "end" : 55329
+    },
+    "sentence_text" : "Medical Disablement/Infection Aged 18 to 64",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 55505,
+      "end" : 55529
+    },
+    "sentence_text" : "Aged under 18 or over 64",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 55756,
+      "end" : 55771
+    },
+    "sentence_text" : "£0 £0",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ {
+      "type" : "Currency",
+      "text" : "£0",
+      "attribute" : {
+        "begin" : 55756,
+        "end" : 55763
+      }
+    }, {
+      "type" : "Currency",
+      "text" : "0 £",
+      "attribute" : {
+        "begin" : 55762,
+        "end" : 55765
+      }
+    }, {
+      "type" : "Currency",
+      "text" : "£0",
+      "attribute" : {
+        "begin" : 55764,
+        "end" : 55771
+      }
+    } ]
+  }, {
+    "sentence" : {
+      "begin" : 55997,
+      "end" : 56004
+    },
+    "sentence_text" : "Nil Nil",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 56232,
+      "end" : 56256
+    },
+    "sentence_text" : "£10,000 £2,000",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ {
+      "type" : "Currency",
+      "text" : "£10,000",
+      "attribute" : {
+        "begin" : 56232,
+        "end" : 56244
+      }
+    }, {
+      "type" : "Currency",
+      "text" : "10,000 £",
+      "attribute" : {
+        "begin" : 56238,
+        "end" : 56246
+      }
+    }, {
+      "type" : "Currency",
+      "text" : "£2,000",
+      "attribute" : {
+        "begin" : 56245,
+        "end" : 56256
+      }
+    } ]
+  }, {
+    "sentence" : {
+      "begin" : 56482,
+      "end" : 56489
+    },
+    "sentence_text" : "Nil Nil",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 56716,
+      "end" : 56740
+    },
+    "sentence_text" : "£15,000 £2,000",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ {
+      "type" : "Currency",
+      "text" : "£15,000",
+      "attribute" : {
+        "begin" : 56716,
+        "end" : 56728
+      }
+    }, {
+      "type" : "Currency",
+      "text" : "15,000 £",
+      "attribute" : {
+        "begin" : 56722,
+        "end" : 56730
+      }
+    }, {
+      "type" : "Currency",
+      "text" : "£2,000",
+      "attribute" : {
+        "begin" : 56729,
+        "end" : 56740
+      }
+    } ]
+  }, {
+    "sentence" : {
+      "begin" : 56964,
+      "end" : 56971
+    },
+    "sentence_text" : "Nil Nil",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 57442,
+      "end" : 57469
+    },
+    "sentence_text" : "Provision of Screened Blood",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 57695,
+      "end" : 57707
+    },
+    "sentence_text" : "£25,000",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ {
+      "type" : "Currency",
+      "text" : "£25,000",
+      "attribute" : {
+        "begin" : 57695,
+        "end" : 57707
+      }
+    } ]
+  }, {
+    "sentence" : {
+      "begin" : 57932,
+      "end" : 57935
+    },
+    "sentence_text" : "Nil",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 58162,
+      "end" : 58174
+    },
+    "sentence_text" : "£25,000",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ {
+      "type" : "Currency",
+      "text" : "£25,000",
+      "attribute" : {
+        "begin" : 58162,
+        "end" : 58174
+      }
+    } ]
+  }, {
+    "sentence" : {
+      "begin" : 58399,
+      "end" : 58402
+    },
+    "sentence_text" : "Nil",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 58628,
+      "end" : 58640
+    },
+    "sentence_text" : "£25,000",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ {
+      "type" : "Currency",
+      "text" : "£25,000",
+      "attribute" : {
+        "begin" : 58628,
+        "end" : 58640
+      }
+    } ]
+  }, {
+    "sentence" : {
+      "begin" : 58863,
+      "end" : 58866
+    },
+    "sentence_text" : "Nil",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 59101,
+      "end" : 59103
+    },
+    "sentence_text" : "5a",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 59339,
+      "end" : 59351
+    },
+    "sentence_text" : "Cancellation",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 59577,
+      "end" : 59588
+    },
+    "sentence_text" : "£2,000",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ {
+      "type" : "Currency",
+      "text" : "£2,000",
+      "attribute" : {
+        "begin" : 59577,
+        "end" : 59588
+      }
+    } ]
+  }, {
+    "sentence" : {
+      "begin" : 59813,
+      "end" : 59822
+    },
+    "sentence_text" : "£100",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ {
+      "type" : "Currency",
+      "text" : "£100",
+      "attribute" : {
+        "begin" : 59813,
+        "end" : 59822
+      }
+    } ]
+  }, {
+    "sentence" : {
+      "begin" : 60049,
+      "end" : 60060
+    },
+    "sentence_text" : "£5,000",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ {
+      "type" : "Currency",
+      "text" : "£5,000",
+      "attribute" : {
+        "begin" : 60049,
+        "end" : 60060
+      }
+    } ]
+  }, {
+    "sentence" : {
+      "begin" : 60285,
+      "end" : 60293
+    },
+    "sentence_text" : "£75",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ {
+      "type" : "Currency",
+      "text" : "£75",
+      "attribute" : {
+        "begin" : 60285,
+        "end" : 60293
+      }
+    } ]
+  }, {
+    "sentence" : {
+      "begin" : 60519,
+      "end" : 60531
+    },
+    "sentence_text" : "£10,000",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ {
+      "type" : "Currency",
+      "text" : "£10,000",
+      "attribute" : {
+        "begin" : 60519,
+        "end" : 60531
+      }
+    } ]
+  }, {
+    "sentence" : {
+      "begin" : 60754,
+      "end" : 60762
+    },
+    "sentence_text" : "£50",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ {
+      "type" : "Currency",
+      "text" : "£50",
+      "attribute" : {
+        "begin" : 60754,
+        "end" : 60762
+      }
+    } ]
+  }, {
+    "sentence" : {
+      "begin" : 60996,
+      "end" : 60998
+    },
+    "sentence_text" : "5b",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 61233,
+      "end" : 61244
+    },
+    "sentence_text" : "Curtailment",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 61469,
+      "end" : 61480
+    },
+    "sentence_text" : "£2,000",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ {
+      "type" : "Currency",
+      "text" : "£2,000",
+      "attribute" : {
+        "begin" : 61469,
+        "end" : 61480
+      }
+    } ]
+  }, {
+    "sentence" : {
+      "begin" : 61704,
+      "end" : 61713
+    },
+    "sentence_text" : "£100",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ {
+      "type" : "Currency",
+      "text" : "£100",
+      "attribute" : {
+        "begin" : 61704,
+        "end" : 61713
+      }
+    } ]
+  }, {
+    "sentence" : {
+      "begin" : 61939,
+      "end" : 61950
+    },
+    "sentence_text" : "£5,000",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ {
+      "type" : "Currency",
+      "text" : "£5,000",
+      "attribute" : {
+        "begin" : 61939,
+        "end" : 61950
+      }
+    } ]
+  }, {
+    "sentence" : {
+      "begin" : 62174,
+      "end" : 62182
+    },
+    "sentence_text" : "£75",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ {
+      "type" : "Currency",
+      "text" : "£75",
+      "attribute" : {
+        "begin" : 62174,
+        "end" : 62182
+      }
+    } ]
+  }, {
+    "sentence" : {
+      "begin" : 62407,
+      "end" : 62419
+    },
+    "sentence_text" : "£10,000",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ {
+      "type" : "Currency",
+      "text" : "£10,000",
+      "attribute" : {
+        "begin" : 62407,
+        "end" : 62419
+      }
+    } ]
+  }, {
+    "sentence" : {
+      "begin" : 62641,
+      "end" : 62649
+    },
+    "sentence_text" : "£50",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ {
+      "type" : "Currency",
+      "text" : "£50",
+      "attribute" : {
+        "begin" : 62641,
+        "end" : 62649
+      }
+    } ]
+  }, {
+    "sentence" : {
+      "begin" : 63118,
+      "end" : 63149
+    },
+    "sentence_text" : "Travel Delay on Outward Journey",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 63374,
+      "end" : 63381
+    },
+    "sentence_text" : "£0",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ {
+      "type" : "Currency",
+      "text" : "£0",
+      "attribute" : {
+        "begin" : 63374,
+        "end" : 63381
+      }
+    } ]
+  }, {
+    "sentence" : {
+      "begin" : 63605,
+      "end" : 63608
+    },
+    "sentence_text" : "Nil",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 63834,
+      "end" : 63870
+    },
+    "sentence_text" : "£20 per 8 hours up to £250",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ {
+      "type" : "Currency",
+      "text" : "£20",
+      "attribute" : {
+        "begin" : 63834,
+        "end" : 63842
+      }
+    }, {
+      "type" : "Currency",
+      "text" : "£250",
+      "attribute" : {
+        "begin" : 63861,
+        "end" : 63870
+      }
+    } ]
+  }, {
+    "sentence" : {
+      "begin" : 64094,
+      "end" : 64097
+    },
+    "sentence_text" : "Nil",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 64323,
+      "end" : 64359
+    },
+    "sentence_text" : "£20 per 8 hours up to £400",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ {
+      "type" : "Currency",
+      "text" : "£20",
+      "attribute" : {
+        "begin" : 64323,
+        "end" : 64331
+      }
+    }, {
+      "type" : "Currency",
+      "text" : "£400",
+      "attribute" : {
+        "begin" : 64350,
+        "end" : 64359
+      }
+    } ]
+  }, {
+    "sentence" : {
+      "begin" : 64582,
+      "end" : 64585
+    },
+    "sentence_text" : "Nil",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 64821,
+      "end" : 64823
+    },
+    "sentence_text" : "7a",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 65059,
+      "end" : 65087
+    },
+    "sentence_text" : "Personal Effects and Baggage",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 65314,
+      "end" : 65323
+    },
+    "sentence_text" : "£750",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ {
+      "type" : "Currency",
+      "text" : "£750",
+      "attribute" : {
+        "begin" : 65314,
+        "end" : 65323
+      }
+    } ]
+  }, {
+    "sentence" : {
+      "begin" : 65549,
+      "end" : 65558
+    },
+    "sentence_text" : "£100",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ {
+      "type" : "Currency",
+      "text" : "£100",
+      "attribute" : {
+        "begin" : 65549,
+        "end" : 65558
+      }
+    } ]
+  }, {
+    "sentence" : {
+      "begin" : 65786,
+      "end" : 65797
+    },
+    "sentence_text" : "£1,500",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ {
+      "type" : "Currency",
+      "text" : "£1,500",
+      "attribute" : {
+        "begin" : 65786,
+        "end" : 65797
+      }
+    } ]
+  }, {
+    "sentence"
+    : {
+      "begin" : 66023,
+      "end" : 66031
+    },
+    "sentence_text" : "£75",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ {
+      "type" : "Currency",
+      "text" : "£75",
+      "attribute" : {
+        "begin" : 66023,
+        "end" : 66031
+      }
+    } ]
+  }, {
+    "sentence" : {
+      "begin" : 66258,
+      "end" : 66269
+    },
+    "sentence_text" : "£1,500",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ {
+      "type" : "Currency",
+      "text" : "£1,500",
+      "attribute" : {
+        "begin" : 66258,
+        "end" : 66269
+      }
+    } ]
+  }, {
+    "sentence" : {
+      "begin" : 66493,
+      "end" : 66501
+    },
+    "sentence_text" : "£50",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ {
+      "type" : "Currency",
+      "text" : "£50",
+      "attribute" : {
+        "begin" : 66493,
+        "end" : 66501
+      }
+    } ]
+  }, {
+    "sentence" : {
+      "begin" : 66737,
+      "end" : 66739
+    },
+    "sentence_text" : "7b",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 66975,
+      "end" : 66998
+    },
+    "sentence_text" : "Loss of Travel Document",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 67225,
+      "end" : 67232
+    },
+    "sentence_text" : "£0",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ {
+      "type" : "Currency",
+      "text" : "£0",
+      "attribute" : {
+        "begin" : 67225,
+        "end" : 67232
+      }
+    } ]
+  }, {
+    "sentence" : {
+      "begin" : 67458,
+      "end" : 67461
+    },
+    "sentence_text" : "Nil",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 67689,
+      "end" : 67698
+    },
+    "sentence_text" : "£200",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ {
+      "type" : "Currency",
+      "text" : "£200",
+      "attribute" : {
+        "begin" : 67689,
+        "end" : 67698
+      }
+    } ]
+  }, {
+    "sentence" : {
+      "begin" : 67924,
+      "end" : 67927
+    },
+    "sentence_text" : "Nil",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 68154,
+      "end" : 68163
+    },
+    "sentence_text" : "£350",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ {
+      "type" : "Currency",
+      "text" : "£350",
+      "attribute" : {
+        "begin" : 68154,
+        "end" : 68163
+      }
+    } ]
+  }, {
+    "sentence" : {
+      "begin" : 68387,
+      "end" : 68390
+    },
+    "sentence_text" : "Nil",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 68859,
+      "end" : 68877
+    },
+    "sentence_text" : "Personal Liability",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 69103,
+      "end" : 69110
+    },
+    "sentence_text" : "£0",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ {
+      "type" : "Currency",
+      "text" : "£0",
+      "attribute" : {
+        "begin" : 69103,
+        "end" : 69110
+      }
+    } ]
+  }, {
+    "sentence" : {
+      "begin" : 69335,
+      "end" : 69338
+    },
+    "sentence_text" : "Nil",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 69566,
+      "end" : 69604
+    },
+    "sentence_text" : "£1,000,000 £100,000 property",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ {
+      "type" : "Currency",
+      "text" : "£1,000,000",
+      "attribute" : {
+        "begin" : 69566,
+        "end" : 69581
+      }
+    }, {
+      "type" : "Currency",
+      "text" : "1,000,000 £",
+      "attribute" : {
+        "begin" : 69572,
+        "end" : 69583
+      }
+    }, {
+      "type" : "Currency",
+      "text" : "£100,000",
+      "attribute" : {
+        "begin" : 69582,
+        "end" : 69595
+      }
+    } ]
+  }, {
+    "sentence" : {
+      "begin" : 69829,
+      "end" : 69838
+    },
+    "sentence_text" : "£250",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ {
+      "type" : "Currency",
+      "text" : "£250",
+      "attribute" : {
+        "begin" : 69829,
+        "end" : 69838
+      }
+    } ]
+  }, {
+    "sentence" : {
+      "begin" : 70003,
+      "end" : 70012
+    },
+    "sentence_text" : "£250",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ {
+      "type" : "Currency",
+      "text" : "£250",
+      "attribute" : {
+        "begin" : 70003,
+        "end" : 70012
+      }
+    } ]
+  }, {
+    "sentence" : {
+      "begin" : 70239,
+      "end" : 70277
+    },
+    "sentence_text" : "£2,000,000 £100,000 property",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ {
+      "type" : "Currency",
+      "text" : "£2,000,000",
+      "attribute" : {
+        "begin" : 70239,
+        "end" : 70254
+      }
+    }, {
+      "type" : "Currency",
+      "text" : "2,000,000 £",
+      "attribute" : {
+        "begin" : 70245,
+        "end" : 70256
+      }
+    }, {
+      "type" : "Currency",
+      "text" : "£100,000",
+      "attribute" : {
+        "begin" : 70255,
+        "end" : 70268
+      }
+    } ]
+  }, {
+    "sentence" : {
+      "begin" : 70500,
+      "end" : 70509
+    },
+    "sentence_text" : "£250",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ {
+      "type" : "Currency",
+      "text" : "£250",
+      "attribute" : {
+        "begin" : 70500,
+        "end" : 70509
+      }
+    } ]
+  }, {
+    "sentence" : {
+      "begin" : 70673,
+      "end" : 70682
+    },
+    "sentence_text" : "£250",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ {
+      "type" : "Currency",
+      "text" : "£250",
+      "attribute" : {
+        "begin" : 70673,
+        "end" : 70682
+      }
+    } ]
+  }, {
+    "sentence" : {
+      "begin" : 71156,
+      "end" : 71225
+    },
+    "sentence_text" : "Hijack, Kidnap and Mugging Hospitalisation following a Mugging Attack",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 71452,
+      "end" : 71459
+    },
+    "sentence_text" : "£0",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ {
+      "type" : "Currency",
+      "text" : "£0",
+      "attribute" : {
+        "begin" : 71452,
+        "end" : 71459
+      }
+    } ]
+  }, {
+    "sentence" : {
+      "begin" : 71626,
+      "end" : 71633
+    },
+    "sentence_text" : "£0",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ {
+      "type" : "Currency",
+      "text" : "£0",
+      "attribute" : {
+        "begin" : 71626,
+        "end" : 71633
+      }
+    } ]
+  }, {
+    "sentence" : {
+      "begin" : 71859,
+      "end" : 71862
+    },
+    "sentence_text" : "Nil",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 72028,
+      "end" : 72031
+    },
+    "sentence_text" : "Nil",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 72258,
+      "end" : 72269
+    },
+    "sentence_text" : "Damage Only",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 72437,
+      "end" : 72446
+    },
+    "sentence_text" : "£500",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ {
+      "type" : "Currency",
+      "text" : "£500",
+      "attribute" : {
+        "begin" : 72437,
+        "end" : 72446
+      }
+    } ]
+  }, {
+    "sentence" : {
+      "begin" : 72613,
+      "end" : 72645
+    },
+    "sentence_text" : "£20 per day up to £100",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ {
+      "type" : "Currency",
+      "text" : "£20",
+      "attribute" : {
+        "begin" : 72613,
+        "end" : 72621
+      }
+    }, {
+      "type" : "Currency",
+      "text" : "£100",
+      "attribute" : {
+        "begin" : 72636,
+        "end" : 72645
+      }
+    } ]
+  }, {
+    "sentence" : {
+      "begin" : 72871,
+      "end" : 72874
+    },
+    "sentence_text" : "Nil",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+
+      "begin" : 73040,
+      "end" : 73043
+    },
+    "sentence_text" : "Nil",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 73270,
+      "end" : 73281
+    },
+    "sentence_text" : "Damage Only",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 73448,
+      "end" : 73459
+    },
+    "sentence_text" : "£1,000",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ {
+      "type" : "Currency",
+      "text" : "£1,000",
+      "attribute" : {
+        "begin" : 73448,
+        "end" : 73459
+      }
+    } ]
+  }, {
+    "sentence" : {
+      "begin" : 73627,
+      "end" : 73659
+    },
+    "sentence_text" : "£20 per day up to £500",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ {
+      "type" : "Currency",
+      "text" : "£20",
+      "attribute" : {
+        "begin" : 73627,
+        "end" : 73635
+      }
+    }, {
+      "type" : "Currency",
+      "text" : "£500",
+      "attribute" : {
+        "begin" : 73650,
+        "end" : 73659
+      }
+    } ]
+  }, {
+    "sentence" : {
+      "begin" : 73883,
+      "end" : 73886
+    },
+    "sentence_text" : "Nil",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 74050,
+      "end" : 74053
+    },
+    "sentence_text" : "Nil",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 74289,
+      "end" : 74291
+    },
+    "sentence_text" : "10",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 74528,
+      "end" : 74539
+    },
+    "sentence_text" : "Catastrophe",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 74766,
+      "end" : 74773
+    },
+    "sentence_text" : "£0",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ {
+      "type" : "Currency",
+      "text" : "£0",
+      "attribute" : {
+        "begin" : 74766,
+        "end" : 74773
+      }
+    } ]
+  }, {
+    "sentence" : {
+      "begin" : 74999,
+      "end" : 75002
+    },
+    "sentence_text" : "Nil",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 75230,
+      "end" : 75239
+    },
+    "sentence_text" : "£500",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ {
+      "type" : "Currency",
+      "text" : "£500",
+      "attribute" : {
+        "begin" : 75230,
+        "end" : 75239
+      }
+    } ]
+  }, {
+    "sentence" : {
+      "begin" : 75465,
+      "end" : 75468
+    },
+    "sentence_text" : "Nil",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 75695,
+      "end" : 75706
+    },
+    "sentence_text" : "£1,000",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ {
+      "type" : "Currency",
+      "text" : "£1,000",
+      "attribute" : {
+        "begin" : 75695,
+        "end" : 75706
+      }
+    } ]
+  }, {
+    "sentence" : {
+      "begin" : 75930,
+      "end" : 75933
+    },
+    "sentence_text" : "Nil",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 76169,
+      "end" : 76171
+    },
+    "sentence_text" : "11",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 76407,
+      "end" : 76433
+    },
+    "sentence_text" : "Legal Costs & Expenses",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 76660,
+      "end" : 76672
+    },
+    "sentence_text" : "£25,000",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ {
+      "type" : "Currency",
+      "text" : "£25,000",
+      "attribute" : {
+        "begin" : 76660,
+        "end" : 76672
+      }
+    } ]
+  }, {
+    "sentence" : {
+      "begin" : 76898,
+      "end" : 76901
+    },
+    "sentence_text" : "Nil",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 77129,
+      "end" : 77141
+    },
+    "sentence_text" : "£25,000",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ {
+      "type" : "Currency",
+      "text" : "£25,000",
+      "attribute" : {
+        "begin" : 77129,
+        "end" : 77141
+      }
+    } ]
+  }, {
+    "sentence" : {
+      "begin" : 77367,
+      "end" : 77370
+    },
+    "sentence_text" : "Nil",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 77598,
+      "end" : 77610
+    },
+    "sentence_text" : "£25,000",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ {
+      "type" : "Currency",
+      "text" : "£25,000",
+      "attribute" : {
+        "begin" : 77598,
+        "end" : 77610
+      }
+    } ]
+  }, {
+    "sentence" : {
+      "begin" : 77835,
+      "end" : 77838
+    },
+    "sentence_text" : "Nil",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 78113,
+      "end" : 78145
+    },
+    "sentence_text" : "WELCOME TO ACME TRAVEL INSURANCE",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 80149,
+      "end" : 80894
+    },
+    "sentence_text" : "ERV is authorised by the Bundesanstalt für Finanzdienstleistungsaufsicht (BAFIN - www.bafin.de) and the Prudential Regulation Authority (PRA), and subject to limited regulation by the Financial Conduct Authority (FCA) and PRA.",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 80895,
+      "end" : 81646
+    },
+    "sentence_text" : "Details of the extent of our regulation by the PRA, and FCA are available from us on request.",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 81816,
+      "end" : 82022
+    },
+    "sentence_text" : "Our PRA and FCA registration number is 220041.",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 82726,
+      "end" : 82744
+    },
+    "sentence_text" : "POLICY INFORMATION",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 83006,
+      "end" : 83024
+    },
+    "sentence_text" : "THE POLICY WORDING",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 83219,
+      "end" : 83664
+    },
+    "sentence_text" : "The Policy Wording tells you exactly what is and is not covered, how to make a claim and other important information.",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 83928,
+      "end" : 83943
+    },
+    "sentence_text" : "POLICY SCHEDULE",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 85259,
+      "end" : 85469
+    },
+    "sentence_text" : "Please keep it with the Policy Wording.",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 85735,
+      "end" : 85765
+    },
+    "sentence_text" : "GOVERNING LAW AND JURISDICTION",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 87729,
+      "end" : 87748
+    },
+    "sentence_text" : "DATA PROTECTION ACT",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 89815,
+      "end" : 89843
+    },
+    "sentence_text" : "FULL AND ACCURATE DISCLOSURE",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 90037,
+      "end" : 91699
+    },
+    "sentence_text" : "It is your responsibility to provide complete and accurate information in response to our questions when you take out your insurance policy, and throughout the life of your policy.",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 91860,
+      "end" : 92123
+    },
+    "sentence_text" : "See Important Information relating to Health, Activities and the Acceptance of Your Insurance.",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 94045,
+      "end" : 94836
+    },
+    "sentence_text" : "It is important that you ensure that all statements you make on the application form, claim forms and other documents are full and accurate.",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 96639,
+      "end" : 96656
+    },
+    "sentence_text" : "ABOUT YOUR POLICY",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 96860,
+      "end" : 97471
+    },
+    "sentence_text" : "We know that insurance policies can sometimes be difficult to understand, so we have tried to make this Policy easy to read.",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 97642,
+      "end" : 98267
+    },
+    "sentence_text" : "We have still had to use some words with special meanings and these are listed and explained on pages 5-7 and will appear in bold in the text.",
+    "types" : [ {
+      "label" : {
+        "nature" : "Obligation",
+        "party" : "We"
+      },
+      "assurance" : "High",
+      "provenance" : [ {
+        "id" : "NP2P8gvAc69bSB+ho9JenmciHE+o/KFxVziGPT72ApSs="
+      }, {
+        "id" : "PRVWtrGWZh8dDV6bbsme3YsiHE+o/KFxVziGPT72ApSs="
+      }, {
+        "id" : "PHkFRgCotU1vpcGBwHgj3e15pHZNmMV0bXWDDRtYu1x0="
+      }, {
+        "id" : "P++F/u+PzCtvIoJOcaLcSNg=="
+      } ]
+    } ],
+    "categories" : [ ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 99625,
+      "end" : 99636
+    },
+    "sentence_text" : "THE INSURER",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 99831,
+      "end" : 100768
+    },
+    "sentence_text" : "This Policy is underwritten by ETI - International Travel Protection, the UK branch of Europäische Reiseversicherung A.G., ( ERV ) an Ergo Group Company incorporated and regulated under the laws of the Germany, Companies House Registration FC 25660 and Branch Registration BR 007939.",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ {
+      "type" : "Location",
+      "text" : "Germany",
+      "attribute" : {
+        "begin" : 100687,
+        "end" : 100694
+      }
+    } ]
+  }, {
+    "sentence" : {
+      "begin" : 102126,
+      "end" : 102153
+    },
+    "sentence_text" : "RECIPROCAL HEALTH AGREEMENT",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 102346,
+      "end" : 103476
+    },
+    "sentence_text" : "If you are travelling to a European Union country you are strongly advised to obtain a European Health Insurance Card from your local post office.",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 103477,
+      "end" : 103912
+    },
+    "sentence_text" : "This will entitle you to benefit from the reciprocal health agreements, which exist between EU countries.",
+    "types" : [ {
+      "label" : {
+        "nature" : "Right",
+        "party" : "You"
+      },
+      "assurance" : "High",
+      "provenance" : [ {
+        "id" : "NB6GzkcAJzvuiapx9XWXwXLBbYvSRto+2wQVzXSDgLAs="
+      }, {
+        "id" : "PYbT9wLBuxyNYn0MkwFABJY2iZEsIRez8saDb5Ft02vg="
+      }, {
+        "id" : "PRVWtrGWZh8dDV6bbsme3YsiHE+o/KFxVziGPT72ApSs="
+      }, {
+        "id" : "PHkFRgCotU1vpcGBwHgj3e15pHZNmMV0bXWDDRtYu1x0="
+      }, {
+        "id" : "P++F/u+PzCtvIoJOcaLcSNg=="
+      } ]
+    } ],
+    "categories" : [ ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 103913,
+      "end" : 104342
+    },
+    "sentence_text" : "If you require medical treatment in Australia or New Zealand reciprocal arrangements may also apply.",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ {
+      "type" : "Location",
+      "text" : "Australia",
+      "attribute" : {
+        "begin" : 104278,
+        "end" : 104287
+      }
+    }, {
+      "type" : "Location",
+      "text" : "New Zealand",
+      "attribute" : {
+        "begin" : 104291,
+        "end" : 104302
+      }
+    } ]
+  }, {
+    "sentence" : {
+      "begin" : 104599,
+      "end" : 104616
+    },
+    "sentence_text" : "POLICY CONDITIONS",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 104812,
+      "end" : 105563
+    },
+    "sentence_text" : "These are the conditions of the insurance you will need to meet as your part of this contract.",
+    "types" : [ {
+      "label" : {
+        "nature" : "Obligation",
+        "party" : "You"
+      },
+      "assurance" : "High",
+      "provenance" : [ {
+        "id" : "NP2P8gvAc69bSB+ho9JenmciHE+o/KFxVziGPT72ApSs="
+      }, {
+        "id" : "PYbT9wLBuxyNYn0MkwFABJY2iZEsIRez8saDb5Ft02vg="
+      }, {
+        "id" : "PRVWtrGWZh8dDV6bbsme3YsiHE+o/KFxVziGPT72ApSs="
+      }, {
+        "id" : "PHkFRgCotU1vpcGBwHgj3e15pHZNmMV0bXWDDRtYu1x0="
+      }, {
+        "id" : "P++F/u+PzCtvIoJOcaLcSNg=="
+      }, {
+        "id" : "NNtzdPi0PFR+R0Gs6JgoYuk04j4A/cYGPkRk6uzIdLjU="
+      } ]
+    } ],
+    "categories" : [ ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 105564,
+      "end" : 105659
+    },
+    "sentence_text" : "Certain sections of cover have certain additional conditions, which must also be complied with.",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 105913,
+      "end" : 105927
+    },
+    "sentence_text" : "AGE LIMITATION",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 106123,
+      "end" : 106405
+    },
+    "sentence_text" : "For single trip policies, cover does not extend to any person aged over 74 at commencement of the Policy Period.",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 106565,
+      "end" : 106849
+    },
+    "sentence_text" : "For annual multi trip policies, there is no cover for any person aged over 69 at commencement of the Policy Period.",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 107115,
+      "end" : 107136
+    },
+    "sentence_text" : "CANCELLING THE POLICY",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 107340,
+      "end" : 108688
+    },
+    "sentence_text" : "You may cancel this Policy within 14 days of its issue (provided you have not commenced an Insured Journey ) and, subject to you not having or intending to make a claim, a full refund of premium will be made.",
+    "types" : [ {
+      "label" : {
+        "nature" : "Right",
+        "party" : "You"
+      },
+      "assurance" : "High",
+      "provenance" : [ {
+        "id" : "NFcxTEbqRNqPlGopeAMxC8YOFjt/T/aNeYQ61ZTKoNOU="
+      }, {
+        "id" : "PYbT9wLBuxyNYn0MkwFABJY2iZEsIRez8saDb5Ft02vg="
+      }, {
+        "id" : "PRVWtrGWZh8dDV6bbsme3YsiHE+o/KFxVziGPT72ApSs="
+      }, {
+        "id" : "PHkFRgCotU1vpcGBwHgj3e15pHZNmMV0bXWDDRtYu1x0="
+      }, {
+        "id" : "P++F/u+PzCtvIoJOcaLcSNg=="
+      } ]
+    } ],
+    "categories" : [ ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 110355,
+      "end" : 111336
+    },
+    "sentence_text" : "We may cancel this Policy by giving you at least 30 days' notice (or in the event of non-payment of premium, seven days' notice) in writing at your last known address.",
+    "types" : [ {
+      "label" : {
+        "nature" : "Right",
+        "party" : "We"
+      },
+      "assurance" : "High",
+      "provenance" : [ {
+        "id" : "NFcxTEbqRNqPlGopeAMxC8YOFjt/T/aNeYQ61ZTKoNOU="
+      }, {
+        "id" : "PRVWtrGWZh8dDV6bbsme3YsiHE+o/KFxVziGPT72ApSs="
+      }, {
+        "id" : "PHkFRgCotU1vpcGBwHgj3e15pHZNmMV0bXWDDRtYu1x0="
+      }, {
+        "id" : "P++F/u+PzCtvIoJOcaLcSNg=="
+      } ]
+    } ],
+    "categories" : [ ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 111337,
+      "end" : 112425
+    },
+    "sentence_text" : "If we do, the premium you have paid for the rest of the current Policy Period will be refunded pro rata.",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 112691,
+      "end" : 112712
+    },
+    "sentence_text" : "COMMENCEMENT OF COVER",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 117152,
+      "end" : 117173
+    },
+    "sentence_text" : "DOMESTIC TRAVEL COVER",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 117368,
+      "end" : 118569
+    },
+    "sentence_text" : "Domestic holidays (within your country of residence) that include a flight or pre-booked overnight Accommodation away from your normal place of residence, are covered subject to all other policy terms and conditions.",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 118833,
+      "end" : 118847
+    },
+    "sentence_text" : "FAMILY MEMBERS",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 119670,
+      "end" : 120397
+    },
+    "sentence_text" : "Children are only covered when travelling with you or your spouse or partner.",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 120661,
+      "end" : 120677
+    },
+    "sentence_text" : "MAXIMUM DURATION",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 121311,
+      "end" : 121391
+    },
+    "sentence_text" : "Any one trip covered by a single trip policy is limited to a maximum of 90 days.",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 121392,
+      "end" : 121777
+    },
+    "sentence_text" : "These limits vary with age and the options you have chosen.",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 123242,
+      "end" : 123260
+    },
+    "sentence_text" : "GENERAL EXCLUSIONS",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 123474,
+      "end" : 123533
+    },
+    "sentence_text" : "General exclusions apply to all sections of this insurance.",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 123742,
+      "end" : 123927
+    },
+    "sentence_text" : "In addition to these general exclusions, please also refer to 'What you are not covered for' under each policy section as this sets out further exclusions that apply to certain sections",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 124135,
+      "end" : 124167
+    },
+    "sentence_text" : "We will not cover the following.",
+    "types" : [ {
+      "label" : {
+        "nature" : "Exclusion",
+        "party" : "We"
+      },
+      "assurance" : "High",
+      "provenance" : [ {
+        "id" : "Nwmnnl4K38f5WdJYzxfCOhIm2UpLLK+PkLO0/wzF0x/w="
+      }, {
+        "id" : "PRVWtrGWZh8dDV6bbsme3YsiHE+o/KFxVziGPT72ApSs="
+      }, {
+        "id" : "PHkFRgCotU1vpcGBwHgj3e15pHZNmMV0bXWDDRtYu1x0="
+      }, {
+        "id" : "P++F/u+PzCtvIoJOcaLcSNg=="
+      } ]
+    } ],
+    "categories" : [ ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 124410,
+      "end" : 124650
+    },
+    "sentence_text" : "1. Any claim that relates to a known medical condition",
+    "types" : [ {
+      "label" : {
+        "nature" : "Exclusion",
+        "party" : "We"
+      },
+      "assurance" : "High",
+      "provenance" : [ {
+        "id" : "Nwmnnl4K38f5WdJYzxfCOhHqOdvM3XCiFlka0oDaESJr+oAGBnPQFBDQY+ZsVTD0g"
+      }, {
+        "id" : "PRVWtrGWZh8dDV6bbsme3Yg3J53G1OKrVtdwiRa2A66YwznuIZKl37/4YxKfAOocD"
+      }, {
+        "id" : "PHkFRgCotU1vpcGBwHgj3e4DBD1HjkE8/fhd4g2slwWlW4Hf+L0fXmrlNT68XGiuFQF5YV8X33w5hCI9hWIPbIg=="
+      }, {
+        "id" : "Pqjd5I+s/Fdpx2NbIwCRMtztzc5JdzB+aHfojSiMbztZp4u1DZxlwdAHWePYv+wfs"
+      } ]
+    } ],
+    "categories" : [ ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 124859,
+      "end" : 125239
+    },
+    "sentence_text" : "2. Any claim if you, or any person whose condition may give rise to a claim, are suffering from or have suffered from any diagnosed psychological or psychiatric disorder, anxiety or depression.",
+    "types" : [ {
+      "label" : {
+        "nature" : "Exclusion",
+        "party" : "We"
+      },
+      "assurance" : "High",
+      "provenance" : [ {
+        "id" : "Nwmnnl4K38f5WdJYzxfCOhHqOdvM3XCiFlka0oDaESJr+oAGBnPQFBDQY+ZsVTD0g"
+      }, {
+        "id" : "PRVWtrGWZh8dDV6bbsme3Yg3J53G1OKrVtdwiRa2A66YwznuIZKl37/4YxKfAOocD"
+      }, {
+        "id" : "PHkFRgCotU1vpcGBwHgj3e4DBD1HjkE8/fhd4g2slwWlW4Hf+L0fXmrlNT68XGiuFQF5YV8X33w5hCI9hWIPbIg=="
+      }, {
+        "id" : "Pqjd5I+s/Fdpx2NbIwCRMtztzc5JdzB+aHfojSiMbztZp4u1DZxlwdAHWePYv+wfs"
+      } ]
+    } ],
+    "categories" : [ ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 125448,
+      "end" : 125715
+    },
+    "sentence_text" : "3. Any claims arising as a result of flying less than 24 hours after a scuba dive",
+    "types" : [ {
+      "label" : {
+        "nature" : "Exclusion",
+        "party" : "We"
+      },
+      "assurance" : "High",
+      "provenance" : [ {
+        "id" : "Nwmnnl4K38f5WdJYzxfCOhHqOdvM3XCiFlka0oDaESJr+oAGBnPQFBDQY+ZsVTD0g"
+      }, {
+        "id" : "PRVWtrGWZh8dDV6bbsme3Yg3J53G1OKrVtdwiRa2A66YwznuIZKl37/4YxKfAOocD"
+      }, {
+        "id" : "PHkFRgCotU1vpcGBwHgj3e4DBD1HjkE8/fhd4g2slwWlW4Hf+L0fXmrlNT68XGiuFQF5YV8X33w5hCI9hWIPbIg=="
+      }, {
+        "id" : "Pqjd5I+s/Fdpx2NbIwCRMtztzc5JdzB+aHfojSiMbztZp4u1DZxlwdAHWePYv+wfs"
+      } ]
+    } ],
+    "categories" : [ ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 125924,
+      "end" : 126252
+    },
+    "sentence_text" : "4. Any injury/accident related to scuba diving unless you have paid the necessary premium to extend your insurance to provide cover for this.",
+    "types" : [ {
+      "label" : {
+        "nature" : "Exclusion",
+        "party" : "We"
+      },
+      "assurance" : "High",
+      "provenance" : [ {
+        "id" : "Nwmnnl4K38f5WdJYzxfCOhHqOdvM3XCiFlka0oDaESJr+oAGBnPQFBDQY+ZsVTD0g"
+      }, {
+        "id" : "PRVWtrGWZh8dDV6bbsme3Yg3J53G1OKrVtdwiRa2A66YwznuIZKl37/4YxKfAOocD"
+      }, {
+        "id" : "PHkFRgCotU1vpcGBwHgj3e4DBD1HjkE8/fhd4g2slwWlW4Hf+L0fXmrlNT68XGiuFQF5YV8X33w5hCI9hWIPbIg=="
+      }, {
+        "id" : "Pqjd5I+s/Fdpx2NbIwCRMtztzc5JdzB+aHfojSiMbztZp4u1DZxlwdAHWePYv+wfs"
+      } ]
+    } ],
+    "categories" : [ ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 126461,
+      "end" : 126734
+    },
+    "sentence_text" : "5. Any claim arising out of war, civil war, invasion, revolution or any similar event.",
+    "types" : [ {
+      "label" : {
+        "nature" : "Exclusion",
+        "party" : "We"
+      },
+      "assurance" : "High",
+      "provenance" : [ {
+        "id" : "Nwmnnl4K38f5WdJYzxfCOhHqOdvM3XCiFlka0oDaESJr+oAGBnPQFBDQY+ZsVTD0g"
+      }, {
+        "id" : "PRVWtrGWZh8dDV6bbsme3Yg3J53G1OKrVtdwiRa2A66YwznuIZKl37/4YxKfAOocD"
+      }, {
+        "id" : "PHkFRgCotU1vpcGBwHgj3e4DBD1HjkE8/fhd4g2slwWlW4Hf+L0fXmrlNT68XGiuFQF5YV8X33w5hCI9hWIPbIg=="
+      }, {
+        "id" : "Pqjd5I+s/Fdpx2NbIwCRMtztzc5JdzB+aHfojSiMbztZp4u1DZxlwdAHWePYv+wfs"
+      } ]
+    } ],
+    "categories" : [ ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 126943,
+      "end" : 127324
+    },
+    "sentence_text" : "6. Any claim arising from using a two-wheeled motor vehicle over 50cc as a driver or passenger if you are not wearing a crash helmet, or the driver does not hold an appropriate driving licence.",
+    "types" : [ {
+      "label" : {
+        "nature" : "Exclusion",
+        "party" : "We"
+      },
+      "assurance" : "High",
+      "provenance" : [ {
+        "id" : "Nwmnnl4K38f5WdJYzxfCOhHqOdvM3XCiFlka0oDaESJr+oAGBnPQFBDQY+ZsVTD0g"
+      }, {
+        "id" : "PRVWtrGWZh8dDV6bbsme3Yg3J53G1OKrVtdwiRa2A66YwznuIZKl37/4YxKfAOocD"
+      }, {
+        "id" : "PHkFRgCotU1vpcGBwHgj3e4DBD1HjkE8/fhd4g2slwWlW4Hf+L0fXmrlNT68XGiuFQF5YV8X33w5hCI9hWIPbIg=="
+      }, {
+        "id" : "Pqjd5I+s/Fdpx2NbIwCRMtztzc5JdzB+aHfojSiMbztZp4u1DZxlwdAHWePYv+wfs"
+      } ]
+    } ],
+    "categories" : [ ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 127533,
+      "end" : 127774
+    },
+    "sentence_text" : "7. Motor racing, rallying or vehicle racing of any kind.",
+    "types" : [ {
+      "label" : {
+        "nature" : "Exclusion",
+        "party" : "We"
+      },
+      "assurance" : "High",
+      "provenance" : [ {
+        "id" : "Nwmnnl4K38f5WdJYzxfCOhHqOdvM3XCiFlka0oDaESJr+oAGBnPQFBDQY+ZsVTD0g"
+      }, {
+        "id" : "PRVWtrGWZh8dDV6bbsme3Yg3J53G1OKrVtdwiRa2A66YwznuIZKl37/4YxKfAOocD"
+      }, {
+        "id" : "PHkFRgCotU1vpcGBwHgj3e4DBD1HjkE8/fhd4g2slwWlW4Hf+L0fXmrlNT68XGiuFQF5YV8X33w5hCI9hWIPbIg=="
+      }, {
+        "id" : "Pqjd5I+s/Fdpx2NbIwCRMtztzc5JdzB+aHfojSiMbztZp4u1DZxlwdAHWePYv+wfs"
+      } ]
+    } ],
+    "categories" : [ ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 127983,
+      "end" : 128330
+    },
+    "sentence_text" : "8. Any claim arising from you being in, entering, or leaving any aircraft other than as a fare-paying passenger in a fully-licensed passenger-carrying aircraft.",
+    "types" : [ {
+      "label" : {
+        "nature" : "Exclusion",
+        "party" : "We"
+      },
+      "assurance" : "High",
+      "provenance" : [ {
+        "id" : "Nwmnnl4K38f5WdJYzxfCOhHqOdvM3XCiFlka0oDaESJr+oAGBnPQFBDQY+ZsVTD0g"
+      }, {
+        "id" : "PRVWtrGWZh8dDV6bbsme3Yg3J53G1OKrVtdwiRa2A66YwznuIZKl37/4YxKfAOocD"
+      }, {
+        "id" : "PHkFRgCotU1vpcGBwHgj3e4DBD1HjkE8/fhd4g2slwWlW4Hf+L0fXmrlNT68XGiuFQF5YV8X33w5hCI9hWIPbIg=="
+      }, {
+        "id" : "Pqjd5I+s/Fdpx2NbIwCRMtztzc5JdzB+aHfojSiMbztZp4u1DZxlwdAHWePYv+wfs"
+      } ]
+    } ],
+    "categories" : [ ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 128540,
+      "end" : 128860
+    },
+    "sentence_text" : "9. Any claim relating to winter sports unless you have paid the necessary premium to extend your insurance to provide cover for this.",
+    "types" : [ {
+      "label" : {
+        "nature" : "Exclusion",
+        "party" : "We"
+      },
+      "assurance" : "High",
+      "provenance" : [ {
+        "id" : "Nwmnnl4K38f5WdJYzxfCOhHqOdvM3XCiFlka0oDaESJr+oAGBnPQFBDQY+ZsVTD0g"
+      }, {
+        "id" : "PRVWtrGWZh8dDV6bbsme3Yg3J53G1OKrVtdwiRa2A66YwznuIZKl37/4YxKfAOocD"
+      }, {
+        "id" : "PHkFRgCotU1vpcGBwHgj3e4DBD1HjkE8/fhd4g2slwWlW4Hf+L0fXmrlNT68XGiuFQF5YV8X33w5hCI9hWIPbIg=="
+      }, {
+        "id" : "Pqjd5I+s/Fdpx2NbIwCRMtztzc5JdzB+aHfojSiMbztZp4u1DZxlwdAHWePYv+wfs"
+      } ]
+    } ],
+    "categories" : [ ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 129069,
+      "end" : 129360
+    },
+    "sentence_text" : "10. Any claim arising as a result of you failing to get the inoculations and vaccinations that you need.",
+    "types" : [ {
+      "label" : {
+        "nature" : "Exclusion",
+        "party" : "We"
+      },
+      "assurance" : "High",
+      "provenance" : [ {
+        "id" : "Nwmnnl4K38f5WdJYzxfCOhHqOdvM3XCiFlka0oDaESJr+oAGBnPQFBDQY+ZsVTD0g"
+      }, {
+        "id" : "PRVWtrGWZh8dDV6bbsme3Yg3J53G1OKrVtdwiRa2A66YwznuIZKl37/4YxKfAOocD"
+      }, {
+        "id" : "PHkFRgCotU1vpcGBwHgj3e4DBD1HjkE8/fhd4g2slwWlW4Hf+L0fXmrlNT68XGiuFQF5YV8X33w5hCI9hWIPbIg=="
+      }, {
+        "id" : "Pqjd5I+s/Fdpx2NbIwCRMtztzc5JdzB+aHfojSiMbztZp4u1DZxlwdAHWePYv+wfs"
+      } ]
+    } ],
+    "categories" : [ ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 129569,
+      "end" : 129960
+    },
+    "sentence_text" : "11. Any claim, loss, injury, damage or legal liability arising directly or indirectly from any planned or actual trip in, to or through Cuba, Iran, Sudan, Syria, Crimea region of Ukraine and North Korea.",
+    "types" : [ {
+      "label" : {
+        "nature" : "Exclusion",
+        "party" : "We"
+      },
+      "assurance" : "High",
+      "provenance" : [ {
+        "id" : "Nwmnnl4K38f5WdJYzxfCOhHqOdvM3XCiFlka0oDaESJr+oAGBnPQFBDQY+ZsVTD0g"
+      }, {
+        "id" : "PRVWtrGWZh8dDV6bbsme3Yg3J53G1OKrVtdwiRa2A66YwznuIZKl37/4YxKfAOocD"
+      }, {
+        "id" : "PHkFRgCotU1vpcGBwHgj3e4DBD1HjkE8/fhd4g2slwWlW4Hf+L0fXmrlNT68XGiuFQF5YV8X33w5hCI9hWIPbIg=="
+      }, {
+        "id" : "Pqjd5I+s/Fdpx2NbIwCRMtztzc5JdzB+aHfojSiMbztZp4u1DZxlwdAHWePYv+wfs"
+      } ]
+    } ],
+    "categories" : [ ],
+    "attributes" : [ ]
+  }, {
+    "sentence" : {
+      "begin" : 130216,
+      "end" : 130243
+    },
+    "sentence_text" : "RIGHTS AND RESPONSIBILITIES",
+    "types" : [ ],
+    "categories" : [ ],
+    "attributes" : [ ]
+  } ],
+  "parties" : [ {
+    "party" : "Buyer",
+    "role" : "Buyer"
+  }, {
+    "party" : "Supplier",
+    "role" : "Supplier"
+  }, {
+    "party" : "We",
+    "role" : "Unknown"
+  }, {
+    "party" : "You",
+    "role" : "Unknown"
+  } ]
+}
