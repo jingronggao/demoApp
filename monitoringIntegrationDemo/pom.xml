@@ -131,7 +131,7 @@
         <version>2.6</version>
         <configuration>
           <failOnMissingWebXml>false</failOnMissingWebXml>
-          <packagingExcludes>pom.xml</packagingExcludes>
+          <packagingExcludes>pom.xml, src/, target/, WebContent/</packagingExcludes>
           <warSourceDirectory>WebContent</warSourceDirectory>
         </configuration>
       </plugin>
