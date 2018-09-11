@@ -20,10 +20,8 @@ import org.apache.http.impl.client.HttpClients;
 import org.apache.http.ssl.SSLContextBuilder;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import org.apache.logging.log4j.core.ErrorHandler;
 import org.json.*;
 
-import com.ibm.ta.modresorts.WeatherServlet;
 import com.ibm.ta.modresorts.exception.ExceptionHandler;
 
 import javax.net.ssl.HostnameVerifier;
@@ -125,7 +123,6 @@ public class ProcessPolicyServ extends HttpServlet {
 
         try {
             // parses the request's content to extract file data
-            @SuppressWarnings("unchecked")
             List<FileItem> formItems = upload.parseRequest(request);
 
             if (formItems != null && formItems.size() > 0) {

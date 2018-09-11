@@ -18,9 +18,9 @@ public class Constants {
 	public final static String PARIS_WEATHER_FILE = "paris20180810Weather.json";
 	public final static String SAN_FRANCESCO_WEATHER_FILE = "sanFrancesco20180810Weather.json";
 	
-	
-
-	
+	// constants used to construct Weather Underground API
+	public final static String WUNDERGROUND_API_PREFIX = "http://api.wunderground.com/api/";
+	public final static String WUNDERGROUND_API_PART = "/forecast/geolookup/conditions/q/";
 	
 
 }
