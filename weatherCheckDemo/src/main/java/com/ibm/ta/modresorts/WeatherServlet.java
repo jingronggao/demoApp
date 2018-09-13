@@ -8,6 +8,8 @@ import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.ProtocolException;
 import java.net.URL;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
 import javax.servlet.ServletException;
 import javax.servlet.ServletOutputStream;
@@ -15,8 +17,6 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
 
 import com.ibm.ta.modresorts.exception.ExceptionHandler;
 
@@ -29,14 +29,13 @@ public class WeatherServlet extends HttpServlet {
 	
 	static final long serialVersionUID = 1L;
 	  
-	final static Logger logger = LogManager.getLogger(WeatherServlet.class);
+	private static final Logger logger = Logger.getLogger(WeatherServlet.class.getName());
 
 	/**
 	 * constructor
 	 */
 	public WeatherServlet() {
 		super();
-		logger.debug("WeatherServlet constructor called");
 	}
 
 	/**
@@ -44,14 +43,15 @@ public class WeatherServlet extends HttpServlet {
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException{
-		logger.debug("WeatherServlet doGet() called");
+		String methodName = "doGet";
+		logger.entering(WeatherServlet.class.getName(), methodName);
 
 		String city = request.getParameter("selectedCity");
-		logger.debug("requested city is " + city);
+		logger.log(Level.FINE, "requested city is " + city);
 		
 		String weatherAPIKey = System.getenv(WEATHER_API_KEY);
 		String mockedKey = mockKey(weatherAPIKey);
-		logger.debug("weatherAPIKey is " + mockedKey);
+		logger.log(Level.FINE, "weatherAPIKey is " + mockedKey);
 		
 		if (weatherAPIKey != null && weatherAPIKey.trim().length() > 0) {
 			logger.info("weatherAPIKey is found, system will provide the real time weather data for the city " + city);
@@ -103,7 +103,7 @@ public class WeatherServlet extends HttpServlet {
 		} 
 		
 		int responseCode = con.getResponseCode();
-		logger.debug("Response Code: " + responseCode);		
+		logger.log(Level.FINEST, "Response Code: " + responseCode);		
 		
 		if (responseCode >= 200 && responseCode < 300) {
 
@@ -122,7 +122,7 @@ public class WeatherServlet extends HttpServlet {
 				response.setContentType("application/json");
 				out = response.getOutputStream();
 				out.print(responseStr.toString());
-				logger.debug("responseStr: " + responseStr);
+				logger.log(Level.FINE, "responseStr: " + responseStr);
 			} catch (Exception e) {
 				String errorMsg = "Problem occured when processing the weather server response.";
 				ExceptionHandler.handleException(e, errorMsg, logger);
@@ -159,7 +159,7 @@ public class WeatherServlet extends HttpServlet {
 			response.setContentType("application/json");
 			out = response.getOutputStream();
 			out.print(responseStr.toString());
-			logger.debug("responseStr: " + responseStr);
+			logger.log(Level.FINEST, "responseStr: " + responseStr);
 		} catch (Exception e) {
 				String errorMsg = "Problem occured when getting the default weather data.";
 				ExceptionHandler.handleException(e, errorMsg, logger);

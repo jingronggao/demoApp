@@ -8,6 +8,8 @@ import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.ProtocolException;
 import java.net.URL;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
 import javax.enterprise.context.RequestScoped;
 import javax.inject.Inject;
@@ -16,9 +18,6 @@ import javax.servlet.ServletOutputStream;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
 
 import com.ibm.ta.modresorts.exception.ExceptionHandler;
 
@@ -43,14 +42,14 @@ public class WeatherServlet extends HttpServlet {
 	@Metric(name="paris_hits", tags= {"appName=ModResortApp"}, description="Number of people that checked the weather for Paris.", absolute=true)
 	Counter parisCount;  
 	  
-	final static Logger logger = LogManager.getLogger(WeatherServlet.class);
+	final static Logger logger = Logger.getLogger(WeatherServlet.class.getName());
 
 	/**
 	 * constructor
 	 */
 	public WeatherServlet() {
 		super();
-		logger.debug("WeatherServlet constructor called");
+		logger.log(Level.FINE, "WeatherServlet constructor called");
 	}
 
 	/**
@@ -58,16 +57,16 @@ public class WeatherServlet extends HttpServlet {
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException{
-		logger.debug("WeatherServlet doGet() called");
+		logger.log(Level.FINE, "WeatherServlet doGet() called");
 		weatherCount.inc();
-		logger.debug("increase weather count. weatherCount is now " + weatherCount.getCount());
+		logger.log(Level.INFO, "increase weather check count. weatherCount is now " + weatherCount.getCount());
 		
 		String city = request.getParameter("selectedCity");
-		logger.debug("requested city is " + city);
+		logger.log(Level.FINE, "requested city is " + city);
 		
 		String weatherAPIKey = System.getenv(WEATHER_API_KEY);
 		String mockedKey = mockKey(weatherAPIKey);
-		logger.debug("weatherAPIKey is " + mockedKey);
+		logger.log(Level.FINE, "weatherAPIKey is " + mockedKey);
 		
 		if (weatherAPIKey != null && weatherAPIKey.trim().length() > 0) {
 			logger.info("weatherAPIKey is found, system will provide the real time weather data for the city " + city);
@@ -86,7 +85,7 @@ public class WeatherServlet extends HttpServlet {
 	    if (Constants.PARIS.equals(city)) {
 	            resturl = resturlbase + "France/Paris.json";
 	            parisCount.inc();
-	            logger.debug("increase weather count for Paris. parisCount is now " + parisCount.getCount());
+	            logger.log(Level.INFO, "increase weather count for Paris. parisCount is now " + parisCount.getCount());
 	        } else if (Constants.LAS_VEGAS.equals(city)) {
 	            resturl = resturlbase + "NV/Las_Vegas.json";
 	        } else if (Constants.SAN_FRANCISCO.equals(city)) {
@@ -121,7 +120,7 @@ public class WeatherServlet extends HttpServlet {
 		} 
 		
 		int responseCode = con.getResponseCode();
-		logger.debug("Response Code: " + responseCode);		
+		logger.log(Level.FINE, "Response Code: " + responseCode);		
 		
 		if (responseCode >= 200 && responseCode < 300) {
 
@@ -140,7 +139,7 @@ public class WeatherServlet extends HttpServlet {
 				response.setContentType("application/json");
 				out = response.getOutputStream();
 				out.print(responseStr.toString());
-				logger.debug("responseStr: " + responseStr);
+				logger.log(Level.FINEST, "responseStr: " + responseStr);
 			} catch (Exception e) {
 				String errorMsg = "Problem occured when processing the weather server response.";
 				ExceptionHandler.handleException(e, errorMsg, logger);
@@ -168,7 +167,7 @@ public class WeatherServlet extends HttpServlet {
 			defaultWeatherData = new DefaultWeatherData(city);
 			if (Constants.PARIS.equals(city)) {
 				parisCount.inc();
-				logger.debug("increase weather count for Paris. parisCount is now " + parisCount.getCount());
+				logger.info("increase weather count for Paris. parisCount is now " + parisCount.getCount());
 			}
 		}catch (UnsupportedOperationException e) {
 			ExceptionHandler.handleException(e, e.getMessage(), logger);
@@ -181,7 +180,7 @@ public class WeatherServlet extends HttpServlet {
 			response.setContentType("application/json");
 			out = response.getOutputStream();
 			out.print(responseStr.toString());
-			logger.debug("responseStr: " + responseStr);
+			logger.log(Level.FINEST, "responseStr: " + responseStr);
 		} catch (Exception e) {
 				String errorMsg = "Problem occured when getting the default weather data.";
 				ExceptionHandler.handleException(e, errorMsg, logger);

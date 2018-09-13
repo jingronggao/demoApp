@@ -3,13 +3,12 @@ package com.ibm.ta.modresorts;
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
-
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
 public class DefaultWeatherData {
 	
-	final static Logger logger = LogManager.getLogger(DefaultWeatherData.class);
+	final static Logger logger = Logger.getLogger(DefaultWeatherData.class.getName());
 	
 	private String city = null;
 	
@@ -19,7 +18,7 @@ public class DefaultWeatherData {
 
 	public DefaultWeatherData(String city) {
 		if (city == null) {
-			logger.error("fail initializing DefaultWeatherData because the given city value is null");
+			logger.severe("fail initializing DefaultWeatherData because the given city value is null");
 			throw new UnsupportedOperationException("City is not defined");
 		}
 		boolean isSupportedCity = false;
@@ -32,7 +31,7 @@ public class DefaultWeatherData {
 		if (isSupportedCity) {
 			this.city = city;
 		} else {
-			logger.error("fail initializing DefaultWeatherData because the given city " + city + " is not supported");
+			logger.severe("fail initializing DefaultWeatherData because the given city " + city + " is not supported");
 			throw new UnsupportedOperationException("City is invalid. It must be one of " + Constants.SUPPORTED_CITIES.toString());
 		}
 	}
@@ -56,7 +55,7 @@ public class DefaultWeatherData {
 			throw new UnsupportedOperationException("The default weather information for the selected city: " + city + 
 					" is not provided.  Valid selections are: " + Constants.SUPPORTED_CITIES);
 		}
-		logger.debug("dataFileName: " + dataFileName);
+		logger.log(Level.FINE, "dataFileName: " + dataFileName);
 		
 		InputStream inputStream = null;
 		
@@ -77,7 +76,7 @@ public class DefaultWeatherData {
 		}
 				
 	    String resultStr = new String(out.toByteArray(), "UTF-8");
-	    logger.debug("resultStr: " + resultStr);
+	    logger.log(Level.FINEST, "resultStr: " + resultStr);
 	    out = null;
 	    return resultStr;
 		

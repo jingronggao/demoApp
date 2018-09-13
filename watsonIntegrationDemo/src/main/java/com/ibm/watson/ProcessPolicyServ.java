@@ -8,6 +8,8 @@ import java.io.InputStreamReader;
 import java.io.PrintWriter;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
 import javax.net.ssl.HostnameVerifier;
 import javax.servlet.ServletException;
@@ -33,8 +35,6 @@ import org.apache.http.entity.mime.content.FileBody;
 import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.http.impl.client.HttpClients;
 import org.apache.http.ssl.SSLContextBuilder;
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
 import org.json.JSONArray;
 import org.json.JSONObject;
 
@@ -43,7 +43,7 @@ import com.ibm.ta.modresorts.exception.ExceptionHandler;
 public class ProcessPolicyServ extends HttpServlet {
     private static final long serialVersionUID = 1L;
     
-    final static Logger logger = LogManager.getLogger(ProcessPolicyServ.class);
+    final static Logger logger = Logger.getLogger(ProcessPolicyServ.class.getName());
 
 
     // location to store file uploaded
@@ -97,7 +97,7 @@ public class ProcessPolicyServ extends HttpServlet {
             try{
             	writer = response.getWriter();
             	String errorMsg = "Error: Form must has enctype=multipart/form-data.";
-            	logger.error(errorMsg);
+            	logger.severe(errorMsg);
     			writer.println(errorMsg);
                 writer.flush();
                 return;
@@ -125,7 +125,7 @@ public class ProcessPolicyServ extends HttpServlet {
         // creates the directory if it does not exist
 
         File uploadDir = new File(UPLOAD_DIRECTORY);
-        logger.debug("uploadDir is " + uploadDir.getAbsoluteFile());
+        logger.log(Level.FINE, "uploadDir is " + uploadDir.getAbsoluteFile());
         if (!uploadDir.exists()) {
             uploadDir.mkdir();
         }
@@ -163,7 +163,7 @@ public class ProcessPolicyServ extends HttpServlet {
                         
                         JSONObject excls = analyzeFile(filePath);
 
-                        logger.debug("RESULTS::::\n" + excls.toString());
+                        logger.log(Level.FINEST, "RESULTS::::\n" + excls.toString());
 
                         request.setAttribute("message",
                                 "Upload has been done successfully!");
@@ -208,7 +208,7 @@ public class ProcessPolicyServ extends HttpServlet {
 
     private JSONObject analyzeFile(String fileName) throws IOException {
 
-        logger.debug("Entering analyzeFile.............");
+        logger.log(Level.FINEST, "Entering analyzeFile.............");
 
         String cncURI;
 
@@ -224,7 +224,7 @@ public class ProcessPolicyServ extends HttpServlet {
                 TimeUnit.SECONDS.sleep(5);
             } catch (Exception e) {
             	// ignore the exception, only write into log
-            	logger.warn("Thread sleep was interupted", e);
+            	logger.warning("Thread sleep was interupted" + e.toString());
             }
             return getExclusions(getBackupJSON().toString());
         } 
@@ -264,8 +264,8 @@ public class ProcessPolicyServ extends HttpServlet {
             HttpResponse response = httpclient.execute(post);
 
             if (response != null) {
-                logger.debug(response.getStatusLine());
-                //logger.debug(response);
+                logger.log(Level.FINEST, response.getStatusLine() + "");
+                logger.log(Level.FINEST, response.toString());
                 HttpEntity responseEntity = response.getEntity();
                 if (responseEntity != null) {
                     // Read the response string if required
@@ -283,7 +283,7 @@ public class ProcessPolicyServ extends HttpServlet {
                     		}
 
                     		if (tempResponseString.length() > 0) {
-                    			logger.debug("tempResponseString: " + tempResponseString);
+                    			logger.log(Level.FINEST, "tempResponseString: " + tempResponseString);
                     			return getExclusions(tempResponseString);
                     		}
                     	}
@@ -301,7 +301,7 @@ public class ProcessPolicyServ extends HttpServlet {
             }
 
         } catch (Exception ex) {
-            logger.warn("error happened getting data from Watson API", ex);
+            logger.warning("error happened getting data from Watson API:" + ex.toString());
 
             //If exception for any reason here - fall back to backupjson data
             logger.info("Falling back to backup data...");
@@ -309,12 +309,12 @@ public class ProcessPolicyServ extends HttpServlet {
                 TimeUnit.SECONDS.sleep(5);
             } catch (Exception e) {
             	// ignore the exception, only write into log
-            	logger.warn("Thread sleep was interupted", e);
+            	logger.warning("Thread sleep was interupted:" + e.toString());
             }
             return getExclusions(getBackupJSON().toString());
         }
 
-        logger.debug("Leaving analyzeFile...");
+        logger.log(Level.FINEST, "Leaving analyzeFile...");
 
         return new JSONObject();
     }
@@ -334,20 +334,20 @@ public class ProcessPolicyServ extends HttpServlet {
 
             for (int i = 0; i < elements.length(); i++) {
                 JSONArray types = elements.getJSONObject(i).getJSONArray("types");
-                logger.debug(types.length());
+                logger.log(Level.FINEST, types.length() + "");
 
                 if (types.length() > 0) {
-                	logger.debug(types);
+                	logger.log(Level.FINEST, types.toString());
 
                     for (int j = 0; j < types.length(); j++) {
 
                         String nature = types.getJSONObject(j).getJSONObject("label").getString("nature");
-                        logger.debug("nature: " + nature);
+                        logger.log(Level.FINEST, "nature: " + nature);
 
                         if (nature.toString().equals("Exclusion")) {
                             String text = elements.getJSONObject(i).getString("sentence_text");
                             exclArray.put(text);
-                            logger.debug(text);
+                            logger.log(Level.FINEST, text);
                         }
                     }
                 }
@@ -359,7 +359,7 @@ public class ProcessPolicyServ extends HttpServlet {
 
         } catch (Exception e) {
         	// ignore the exception, only write into log
-        	logger.warn("error happened during getExclusions call, return nothing ", e);
+        	logger.warning("error happened during getExclusions call, return nothing: " + e.toString());
             return new JSONObject();
         }
 
@@ -376,19 +376,19 @@ public class ProcessPolicyServ extends HttpServlet {
             stream = ProcessPolicyServ.class.getResourceAsStream(BACKUP_DATA_FILE);
             String content = IOUtils.toString(stream, "UTF-8");
 
-            logger.debug("content: " + content);
+            logger.log(Level.FINEST, "content: " + content);
 
             // Convert JSON string to JSONObject
             return new JSONObject(content);
 
         } catch (Exception e) {
             // If fail to read the file for any reason - then just get the backup json object in this file.
-            logger.warn("Failed with json file, using embedded json data", e);
+            logger.warning("Failed with json file, using embedded json data:" + e);
  
             try {
                 return new JSONObject(BACKUP_DATA_P1 + BACKUP_DATA_P2);
             } catch (Exception ex) {
-                logger.error("Failed with embedded json");
+                logger.warning("Failed with embedded json");
                 return new JSONObject();
             }
         }finally {
